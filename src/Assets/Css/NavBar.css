@@ -59,7 +59,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
-    margin-right: 10px; 
+    margin-right: 5px; 
 }
 .NavSocial:hover{
     font-family: 'Montserrat', sans-serif;
@@ -87,6 +87,7 @@
     font-weight: 700;
     font-size: 21px;
     box-sizing: border-box;
+    transition: 0.5s;
     color: yellow !important;
 }
 a{
