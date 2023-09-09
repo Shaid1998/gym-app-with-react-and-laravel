@@ -1,0 +1,110 @@
+
+.NavItemMenu{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 20px; 
+}
+.NavItemSocial{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 20px; 
+}
+.NavItemButton{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 20px; 
+}
+.NavMenu{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px; 
+}
+.NavMenu:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #e21650 !important;
+}
+.NavSocial{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px; 
+}
+.NavSocial:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: yellow !important;
+}
+.NavButton{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px; 
+}
+.NavButton:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    box-sizing: border-box;
+    color: yellow !important;
+}
+a{
+    text-decoration: none;
+}
+.BrandImg{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    color: white !important;
+}
+.NavAll{
+    background-image: linear-gradient(to right, #0af029 , #e21650 );
+    width: 100%;
+}
+.NavContent{
+    width: 100%;
+}
