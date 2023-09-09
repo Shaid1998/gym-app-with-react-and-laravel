@@ -43,6 +43,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 21px;
+    transition: 0.5s;
     color: #e21650 !important;
 }
 .NavSocial{
@@ -64,6 +65,7 @@
 .NavSocial:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    transition: 0.5s;
     color: yellow !important;
 }
 .NavButton{
