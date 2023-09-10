@@ -1,0 +1,74 @@
+.Turf{
+    margin-top: 1px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.TurfZone{
+    text-decoration: none;
+}
+
+.TurfTitile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    display: block;
+    text-align: left;
+    padding-left: 3rem; 
+}
+.TurfTitile2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    display: block;
+    text-align: left;
+    padding-left: 4rem; 
+}
+.TurfTitile3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    display: block;
+    text-align: left;
+    padding-left: 5rem; 
+}
+.TurfColumn1{
+    padding-top: 5rem;
+}
+.TurfColumn2{
+    padding-top: 1rem;
+}
+.TurfTitlediv{
+    padding-bottom: 1rem;
+}
+.TurfMainDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: bold;
+    text-align: justify;
+    display: flex;
+    padding-left: 3rem;
+    padding-bottom: 15px;
+}
+.TurfImg1{
+    height: 500px;
+    width: 330px;
+    display: flex;
+    align-items: right;
+    position: absolute;
+    padding-bottom: 2rem;
+    margin-top: 0;
+}
+.TurfImg2{
+    height: 500px;
+    width: 330px;
+    display: flex;
+    align-items: right;
+    position: absolute;
+    padding-bottom: 0;
+    padding-top: 5rem;
+}
+div{
+    display: block;
+}

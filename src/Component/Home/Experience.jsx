@@ -6,7 +6,7 @@ class Experience extends Component {
     render() {
         return (
             <Fragment>
-                <div className='Experience' fluid={true}> 
+                <div className='Experience'> 
                     <Row className='Experiencesec'>
                         <Col className='ExpColumn1' lg={6} md={6} sm={6}>
                             <div className='ExpTitlediv'>
