@@ -14,10 +14,10 @@ class Recovery extends Component {
                     <Col className='RecColumn1' lg={6} md={6} sm={6}>
                         <div className='ExpTitlediv'>
                             <h1 className='RecTitile'>THE</h1>
-                            <h1 className='RecTitile2'>1GYM </h1>
-                            <h1 className='RecTitile3'>EXPERIENCE </h1>
+                            <h1 className='RecTitile2'>BEST</h1>
+                            <h1 className='RecTitile3'>RECOVERY</h1>
                         </div>
-                        <p className='RecMainDes'>Cleanliness & Friendliness, Guaranteed. Fitness nGo carries the latest and greatest cardio and strength training equipment available, exciting nGo classes, Personal Training, Tanning, Cryo-Therapy, Hydromassage, Kids Club, and the greatest atmosphere in the city.</p>
+                        <p className='RecMainDes'>Our ultimate tier membership gives you the best recovery equipment in Port Saint Lucie. The hydromassage and Cryo chairs alone are worth the becoming a member. </p>
                     </Col>
                 </Row>
             </div>
