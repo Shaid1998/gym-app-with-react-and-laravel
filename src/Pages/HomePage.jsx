@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import HomeTop from '../Component/Home/HomeTop'
 import NavbarHome from '../Component/Home/NavbarHome'
+import PersonalTraining from '../Component/Home/PersonalTraining'
 
 class HomePage extends Component {
   render() {
@@ -8,6 +9,7 @@ class HomePage extends Component {
       <Fragment>
         <NavbarHome />
         <HomeTop />
+        <PersonalTraining />
       </Fragment>
     )
   }

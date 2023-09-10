@@ -1,7 +1,6 @@
-import { Button } from 'bootstrap'
+
 import React, { Component, Fragment } from 'react'
-import { Container, Form, Nav, Navbar } from 'react-bootstrap'
-import { FaFacebookSquare } from 'react-bootstrap-icons'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 class NavBar extends Component {
   render() {
