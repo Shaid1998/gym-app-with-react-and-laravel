@@ -3,6 +3,7 @@ import HomeTop from '../Component/Home/HomeTop'
 import NavbarHome from '../Component/Home/NavbarHome'
 import PersonalTraining from '../Component/Home/PersonalTraining'
 import WhyUs from '../Component/Home/WhyUs'
+import Experience from '../Component/Home/Experience'
 
 class HomePage extends Component {
   render() {
@@ -12,6 +13,7 @@ class HomePage extends Component {
         <HomeTop />
         <PersonalTraining />
         <WhyUs />
+        <Experience />
       </Fragment>
     )
   }
