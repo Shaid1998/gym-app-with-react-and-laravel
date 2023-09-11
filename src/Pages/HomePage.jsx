@@ -8,6 +8,8 @@ import Recovery from '../Component/Home/Recovery'
 import TurfZone from '../Component/Home/TurfZone'
 import Atmosphere from '../Component/Home/Atmosphere'
 import JoinToday from '../Component/Home/JoinToday'
+import Registration from '../Component/Home/Registration'
+
 
 class HomePage extends Component {
   render() {
@@ -22,6 +24,7 @@ class HomePage extends Component {
         <TurfZone />
         <Atmosphere />
         <JoinToday />
+        <Registration />
       </Fragment>
     )
   }
