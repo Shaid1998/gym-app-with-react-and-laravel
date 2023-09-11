@@ -7,13 +7,11 @@ class NavBar extends Component {
     return (
          <Fragment> 
             <Navbar  className="bg-body-tertiary NavAll">
-                <Container fluid>
+                <Container fluid={true}>
                     <Navbar.Brand className='Brand' href="#"><img className='BrandImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-kVp_W6eEhD33-7JxDX_CFhMLO0IDgC8tw&usqp=CAU' /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    
                     <Navbar.Collapse id="navbarScroll">
-                    <Nav className="me-auto my-2 my-lg-0">
-                    </Nav>
-                    <Nav className="d-flex">
+                    <Nav className="d-flex NavItemSet">
                         <div className='NavItemMenu'>
                             <Nav.Link className=' nav-item active NavMenu' href="#action1">HOME</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action2">TRAINING</Nav.Link>
