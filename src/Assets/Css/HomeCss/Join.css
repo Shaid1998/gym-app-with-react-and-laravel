@@ -1,0 +1,38 @@
+.JoinT{
+    margin-top: 4rem;
+}
+.JoinClass{
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    background-image: url('../../Image/PSlider7.jpg');
+}
+.JoinTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: rgb(244, 48, 58);
+}
+.ButtonSet{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.ButtonSet:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 45px;
+    font-style: italic;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: red;
+    background-color: yellowgreen;
+}

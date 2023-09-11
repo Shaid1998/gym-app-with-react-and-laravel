@@ -7,6 +7,7 @@ import Experience from '../Component/Home/Experience'
 import Recovery from '../Component/Home/Recovery'
 import TurfZone from '../Component/Home/TurfZone'
 import Atmosphere from '../Component/Home/Atmosphere'
+import JoinToday from '../Component/Home/JoinToday'
 
 class HomePage extends Component {
   render() {
@@ -20,6 +21,7 @@ class HomePage extends Component {
         <Recovery />
         <TurfZone />
         <Atmosphere />
+        <JoinToday />
       </Fragment>
     )
   }
