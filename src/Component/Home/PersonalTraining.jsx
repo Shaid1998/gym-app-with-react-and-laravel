@@ -16,7 +16,7 @@ class PersonalTraining extends Component {
                                 <h1 className='MainTitile'>TRAINING </h1>
                             </div>
                             <p className='MainDescription'>1GYM Gyms has the best personal training program in the Port Saint Lucie area. Our certified personal trainers are experts in their craft. We create the perfect programs to help you reach your goals. Everything begins with our energy and figuring out how to evolve that, then the journey begins. </p>
-                            <Button className='btn btn-primary CupoonButton'>FREE PERSONAL TRAINING CUPOON</Button>
+                            <a className='seTB'><button type="button" class="btn btn-primary btn-lg btn-block CupponButton">FREE PERSONAL TRAINING CUPOON</button></a>
                         </Col>
                         <Col className='PersonalTrainColumn2' lg={6} md={6} sm={6}>
                             <img className='personalImage' src={PSlider1}  />

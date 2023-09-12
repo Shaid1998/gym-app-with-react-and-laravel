@@ -3,6 +3,7 @@
     padding-left: 10px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    background-color: rgb(225, 230, 230);
 }
 .Experiencesec{
     text-decoration: none;
@@ -36,7 +37,8 @@
     padding-top: 5rem;
 }
 .ExpColumn2{
-    padding-top: 4rem;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 .ExpTitlediv{
     padding-bottom: 1rem;
@@ -49,12 +51,11 @@
     text-align: justify;
     display: flex;
     padding-left: 3rem;
-    padding-bottom: 15px;
+    padding-right: 10px;
 }
 .ExpPersonalImg{
-    height: 500px;
+    height: 100%;
     width: 750px;
     display: flex;
     align-items: right;
-    position: absolute;
 }

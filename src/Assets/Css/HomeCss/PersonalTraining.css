@@ -3,6 +3,7 @@
     padding-left: 10px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    background-color: rgb(225, 230, 230);
 }
 .PersonalTrain{
     text-decoration: none;
@@ -33,30 +34,37 @@
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
-.CupoonButton{
+.CupponButton{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+    border-radius: 25px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-left: 5rem;
-    padding-left:  10px;
-    border: white;
-    border-radius: 2px;
-    background-color: rgb(13, 249, 13);
+    font-weight: 700;
     color: black;
+    background-color: rgb(9, 242, 28);
+    font-size: 20px;
+    position: inherit;
 }
-.CupoonButton:hover{
+.CupponButton:hover{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+    border-radius: 25px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 31px;
-    border: white;
-    border-radius: 2px;
-    margin-bottom: 30px;
-    background-color: rgb(249, 80, 13);
-    color: yellow;
-    transition: 0.8s;
+    font-weight: 700;
+    color: rgb(242, 162, 218);
+    background-color: rgb(8, 8, 8);
+    font-size: 22px;
+    position: inherit;
 }
-
+.seTB{
+    padding-left: 3rem;
+}
 
 .personalImage{
     height: 500px;

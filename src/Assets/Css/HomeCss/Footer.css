@@ -1,0 +1,104 @@
+.FooterC{
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fbf5f5;
+}
+.footerColumn1{
+    padding-left: 2rem;
+}
+.footerColumn2{
+    padding-left: 22rem;
+    padding-top: 4rem;
+
+
+}
+.footerLogo{
+    height: 100px;
+    width: 250px;
+    padding-left: 5rem;
+    display: flex;
+    align-items: left;
+}
+.menuRow1{
+    text-decoration: none;
+    padding: 2rem 2rem 2rem 6rem ;
+}
+.menuRow2{
+    text-decoration: none;
+    padding-top: 0;
+    padding-left: 6rem;
+    padding-bottom: 4rem;
+}
+.menuRow3{
+    text-decoration: none;
+    padding-top: 0;
+    padding-left: 6rem;
+    padding-bottom: 1.5rem;
+}
+.menuRow4{
+    text-decoration: none;
+    padding-top: 0;
+    padding-left: 6rem;
+    padding-bottom: 1.5rem;
+}
+.FooterOp{
+    padding-right: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    cursor: pointer;
+    color: black;
+}
+.FooterOp:hover{
+    padding-right: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-style: italic;
+    cursor: pointer;
+    color: rgb(72, 16, 239);
+}
+.copyright{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: 30px;
+    font-style: italic;
+    color: #000;
+}
+.GADD{
+    padding-top: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+    font-style: italic;
+}
+.ActivTitle{
+    padding-top: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.ActiveAtt{
+    padding-top: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+}
+.SocialFooter{
+    padding-right: 25px;
+    font-size: 50px;
+    color: blue;
+}
+.SocialFooter:hover{
+    padding-right: 25px;
+    font-size: 52px;
+    color: rgb(251, 54, 63);
+}

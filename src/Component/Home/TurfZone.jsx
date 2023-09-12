@@ -17,14 +17,14 @@ class TurfZone extends Component {
                                     <h1 className='TurfTitile3'>ZONE</h1>
                                 </div>
                                 <p className='TurfMainDes'>The perfect place to knock out those athletic workouts, take content, or use the TANK.</p>
-                            </Col>
+                            </Col> 
                             <Col className='TurfColumn2' lg={6} md={6} sm={6}>
                                 <Row className='MIddleRow'>
                                     <Col lg={6} md={6} sm={6}>
                                         <img className='TurfImg1' src={Img1}  />
                                     </Col>
                                     <Col lg={6} md={6} sm={6}>
-                                        <img className='TurfImg1' src={Img2}  />
+                                        <img className='TurfImg2' src={Img2}  />
                                     </Col>
                                 </Row>
                             </Col>

@@ -3,7 +3,6 @@
     width: 750px;
     display: flex;
     align-items: right;
-    position: absolute;
 }
 .Recovery{
     margin-top: 1px;
@@ -42,13 +41,13 @@
     padding-left: 5rem; 
 }
 .RecColumn1{
-    padding-top: 10rem;
+    padding-top: 4rem;
     padding-right: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 .RecColumn2{
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
 }
 .RecTitlediv{

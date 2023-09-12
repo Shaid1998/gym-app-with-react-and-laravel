@@ -9,7 +9,7 @@ import TurfZone from '../Component/Home/TurfZone'
 import Atmosphere from '../Component/Home/Atmosphere'
 import JoinToday from '../Component/Home/JoinToday'
 import Registration from '../Component/Home/Registration'
-
+import Footer from '../Component/Footer/Footer'
 
 class HomePage extends Component {
   render() {
@@ -25,6 +25,7 @@ class HomePage extends Component {
         <Atmosphere />
         <JoinToday />
         <Registration />
+        <Footer />
       </Fragment>
     )
   }

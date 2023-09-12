@@ -2,10 +2,7 @@
 .NavItemMenu{
     display: flex;
     align-items: center;
-    padding-left: 8px;
-    padding-right: 10px;
-    margin-left: 5px;
-    margin-right: 20px; 
+
 }
 .NavItemSocial{
     display: flex;
@@ -48,49 +45,64 @@
 }
 .NavSocial{
     color: white !important;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     align-items: center;
-    padding-left: 8px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px; 
+    padding-right: 15px;
+
 }
 .NavSocial:hover{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+    font-size: 20px;
     transition: 0.5s;
     color: yellow !important;
 }
-.NavButton{
-    color: white !important;
-    font-family: 'Montserrat', sans-serif;
+.ButtonSetNav{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2px;
-    margin-right: 10px; 
+    border: 0;
+    border-radius: 25px;
+    color: #000;
+    background-color: rgb(68, 237, 68);
 }
-.NavButton:hover{
-    font-family: 'Montserrat', sans-serif;
+.ButtonSetNav:hover{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 21px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: yellow !important;
+    font-size: 22px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+}
+.bsp{
+    padding-right: 2rem;
+}
+.ButtonSetNavF{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+}
+.ButtonSetNavF:hover{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 22px;
+    border: 0;
+    border-radius: 25px;
+    color: black;
+    background-color: rgb(68, 237, 68);
 }
 a{
     text-decoration: none;

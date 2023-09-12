@@ -4,22 +4,21 @@ import Brand from '../../Assets/Image/Brand.jpg'
 
 class Registration extends Component {
     render() {
-        window.onload = function() {
-            const RegPopUp =document.querySelector('.reg-popup');
-            const close =document.querySelector('.close');
+        document.addEventListener('DOMContentLoaded', () => {
+                const RegPopUp =document.querySelector('.reg-popup');
+                const close =document.querySelector('.close');
 
-            window.addEventListener('load', function(){
-               setInterval(function(){
-                    RegPopUp.classList.add('show'); 
-                },5000); 
-            })
+                window.addEventListener('load', function(){
+                setInterval(function(){
+                        RegPopUp.classList.add('show'); 
+                    },5000); 
+                })
 
-            close.addEventListener('click',function(){
-                RegPopUp.classList.remove('show');
-            })
+                close.addEventListener('click',function(){
+                    RegPopUp.classList.remove('show');
+                })
 
-             
-        };
+            });   
         
         return (
             <Fragment>
