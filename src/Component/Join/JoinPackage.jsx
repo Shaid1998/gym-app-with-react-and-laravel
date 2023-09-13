@@ -1,17 +1,17 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import React, { Component, Fragment } from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Button, Col, Row } from 'react-bootstrap'
 
 class JoinPackage extends Component {
   render() {
     return (
       <Fragment>
-        <Row className='Pack'>
-            <Col lg={6} md={6} sm={6}>
-                <div  className='Unltimate'>
-                    <h1>Ultimate</h1>
-                    <div>
-                        <Col  lg={6} md={6} sm={6}>
+        <div className='bDiv'>
+            <Row className='Pack'>
+                <Col lg={6} md={6} sm={6}>
+                    <Row className='Unltimate'>
+                        <h1 className='TitleOfL'>Ultimate</h1>
+                        <Col className='MenuO' lg={6} md={6} sm={6}>
                             <h4 className='List'>INCLUDED</h4>
                             <h4 className='List'>ANY DAY ACCESS</h4>
                             <h4 className='List'>BRING A GUEST FREE*</h4>
@@ -28,31 +28,29 @@ class JoinPackage extends Component {
                             <h4 className='List'>UNLIMITED HYDRO-MASSAGE</h4>
                             <h4 className='List'>UNLIMITED MASSAGE CHAIR</h4>
                         </Col>
-                        <Col  lg={6} md={6} sm={6}>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
+                        <Col className='menuC' lg={6} md={6} sm={6}>
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
+                            <i class="fas fa-check CheckA"></i><br />
                         </Col>
-                    </div>
-                </div>
-            </Col>
-            <Col  lg={6} md={6} sm={6}>
-                <div  className='d365'>
-                    <h1>365 Days</h1>
-                    <div>
-                        <Col  lg={6} md={6} sm={6}>
+                    </Row>
+                </Col>
+                <Col lg={6} md={6} sm={6}>
+                    <Row className='d365'>
+                        <h1 className='TitleOfL'>365 Days</h1>
+                        <Col className='MenuO' lg={6} md={6} sm={6}>
                             <h4 className='List'>INCLUDED</h4>
                             <h4 className='List'>ANY DAY ACCESS</h4>
                             <h4 className='List'>BRING A GUEST FREE*</h4>
@@ -69,27 +67,31 @@ class JoinPackage extends Component {
                             <h4 className='List'>UNLIMITED HYDRO-MASSAGE</h4>
                             <h4 className='List'>UNLIMITED MASSAGE CHAIR</h4>
                         </Col>
-                        <Col  lg={6} md={6} sm={6}>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
-                            <i class="fas fa-check CheckB"></i>
+                        <Col className='menuC' lg={6} md={6} sm={6}>
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fas fa-check CheckB"></i><br />
+                            <i class="fa fa-cross CheckC"></i><br />
+                            <i class="fa fa-cross CheckC"></i><br />
+                            <i class="fa fa-cross CheckC"></i><br />
+                            <i class="fa fa-cross CheckC"></i><br />
+                            <i class="fa fa-cross CheckC"></i><br />
                         </Col>
-                    </div>
+                    </Row>
+                </Col>
+                <div>
+                    <h1 className='TextPromo'>Click below to schedule your gym tour. We will respond promptly.</h1>
+                    <a className='ButtonPromo'><Button variant="success" size="huge">JOIN NOW</Button></a>
                 </div>
-            </Col>
-        </Row>
+            </Row>`
+        </div>
       </Fragment>
     )
   }

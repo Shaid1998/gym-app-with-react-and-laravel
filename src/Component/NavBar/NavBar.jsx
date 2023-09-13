@@ -1,6 +1,6 @@
 
 import React, { Component, Fragment } from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Button, Container, Nav, Navbar } from 'react-bootstrap'
 
 class NavBar extends Component {
   render() {
@@ -27,8 +27,8 @@ class NavBar extends Component {
                             <a className='nav-item active' href=""><i className="fab m-1 h4 fa-twitter NavSocial"></i></a>
                         </div>
                         <div className='NavItemButton'>
-                            <a className='bsp'><button type="button" class="btn btn-primary btn-lg btn-block ButtonSetNav">JOIN NOW</button></a>
-                            <button src='/join' type="submit" class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</button>
+                            <a className='bsp'><Button href='/join' class="btn btn-primary btn-lg btn-block ButtonSetNav">JOIN NOW</Button></a>
+                            <Button  class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</Button>
                         </div>
                     </Nav>
                     
