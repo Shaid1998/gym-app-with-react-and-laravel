@@ -1,0 +1,26 @@
+.join{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.joinTopTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 60px;
+    display: flex;
+    color: white;
+    text-align: justify center;
+    padding-left: 20rem;
+    padding-bottom: 10px;
+
+}
+.JoinTop{
+    background-image: url('../../Image/PSlider3.jpg');
+    height: 75vh;
+    width: 100%;
+    filter: brightness(0.8);
+}
+.new{
+    padding-top: 5rem;
+    align-items: center;
+    padding-bottom: 6rem;
+}

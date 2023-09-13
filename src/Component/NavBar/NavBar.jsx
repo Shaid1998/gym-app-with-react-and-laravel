@@ -8,16 +8,16 @@ class NavBar extends Component {
          <Fragment> 
             <Navbar  className="bg-body-tertiary NavAll">
                 <Container fluid={true}>
-                    <Navbar.Brand className='Brand' href="#"><img className='BrandImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-kVp_W6eEhD33-7JxDX_CFhMLO0IDgC8tw&usqp=CAU' /></Navbar.Brand>
+                    <Navbar.Brand className='Brand' href="/"><img className='BrandImg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-kVp_W6eEhD33-7JxDX_CFhMLO0IDgC8tw&usqp=CAU' /></Navbar.Brand>
                     
-                    <Navbar.Collapse id="navbarScroll">
+                    
                     <Nav className="d-flex">
                         <div className='NavItemMenu'>
-                            <Nav.Link className=' nav-item active NavMenu' href="#action1">HOME</Nav.Link>
+                            <Nav.Link className=' nav-item active NavMenu' href="/">HOME</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action2">TRAINING</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action3">FACILITIES</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action4">AMENITIES</Nav.Link>
-                            <Nav.Link className='nav-item active NavMenu' href="#action5">JOIN</Nav.Link>
+                            <Nav.Link className='nav-item active NavMenu' href="/join">JOIN</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action6">ABOUT</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action7">BLOG</Nav.Link>
                         </div>
@@ -28,10 +28,10 @@ class NavBar extends Component {
                         </div>
                         <div className='NavItemButton'>
                             <a className='bsp'><button type="button" class="btn btn-primary btn-lg btn-block ButtonSetNav">JOIN NOW</button></a>
-                            <button type="button" class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</button>
+                            <button src='/join' type="submit" class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</button>
                         </div>
                     </Nav>
-                    </Navbar.Collapse>
+                    
                 </Container>
             </Navbar>
         </Fragment>
