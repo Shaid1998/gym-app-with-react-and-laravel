@@ -22,9 +22,9 @@ class NavBar extends Component {
                             <Nav.Link className='nav-item active NavMenu' href="#action7">BLOG</Nav.Link>
                         </div>
                         <div className='NavItemSocial'>
-                            <a className='nav-item active' href=""><i className="fab m-1 h4 fa-facebook NavSocial"></i></a>
-                            <a className='nav-item active' href=""><i className="fab m-1 h4 fa-instagram NavSocial"></i></a>
-                            <a className='nav-item active' href=""><i className="fab m-1 h4 fa-twitter NavSocial"></i></a>
+                            <a className='nav-item active' href="#"><i className="fab m-1 h4 fa-facebook NavSocial"></i></a>
+                            <a className='nav-item active' href="#"><i className="fab m-1 h4 fa-instagram NavSocial"></i></a>
+                            <a className='nav-item active' href="#"><i className="fab m-1 h4 fa-twitter NavSocial"></i></a>
                         </div>
                         <div className='NavItemButton'>
                             <a className='bsp'><Button href='/join' class="btn btn-primary btn-lg btn-block ButtonSetNav">JOIN NOW</Button></a>
