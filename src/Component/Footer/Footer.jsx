@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <Fragment>
-        <Container className='FooterC' fluid={true}>
+        <div className='FooterC'>
           <Row>
             <Col className='footerColumn1' lg={6} md={6} sm={6}>
               <Row>
@@ -51,7 +51,7 @@ class Footer extends Component {
               </div>
             </Col>
           </Row>
-        </Container>
+        </div>
       </Fragment>
     )
   }

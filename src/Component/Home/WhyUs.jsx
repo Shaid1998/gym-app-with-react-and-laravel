@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Button, Col, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import PSlider1 from '../../Assets/Image/PSlider2.jpg'
 import video from '../../Assets/Video/BackgroundTop.mp4'
 
@@ -8,11 +8,9 @@ class WhyUs extends Component {
         return (
             <Fragment>
                 <div className='WhyPersonal' > 
-                    <video className='VideoClass' autoPlay loop muted>
-                        <source src={video} type='video/mp4' />
-                    </video>
+                    <video className='VideoClass' src={video} autoPlay loop muted />
                     <Row className='WhyPersonalTrain'>
-                        <Col className='WhyColumn2' lg={6} md={6} sm={6}>
+                        <Col className='WhyColumn2' lg={6} md={6} sm={6}> 
                             <img className='image' src={PSlider1}  />
                         </Col>
                         <Col className='WhyColumn1' lg={6} md={6} sm={6}>
