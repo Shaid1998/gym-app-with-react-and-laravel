@@ -4,6 +4,7 @@
     margin-bottom: 10px;
     padding-bottom: 10px;
     background-color: rgb(225, 230, 230);
+    width: 100%;
 }
 .Experiencesec{
     text-decoration: none;
@@ -55,7 +56,8 @@
 }
 .ExpPersonalImg{
     height: 100%;
-    width: 750px;
+    width: 100%;
+    padding-right: 1rem;
     display: flex;
     align-items: right;
 }

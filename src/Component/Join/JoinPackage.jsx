@@ -2,6 +2,7 @@
 import React, { Component, Fragment } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 
+
 class JoinPackage extends Component {
   render() {
     return (
@@ -88,7 +89,7 @@ class JoinPackage extends Component {
                 </Col>
                 <div>
                     <h1 className='TextPromo'>Click below to schedule your gym tour. We will respond promptly.</h1>
-                    <a className='ButtonPromo'><Button variant="success" size="huge">JOIN NOW</Button></a>
+                    <a className='ButtonPromo'><Button href='/reg' variant="success" size="huge">JOIN NOW</Button></a>
                 </div>
             </Row>`
         </div>

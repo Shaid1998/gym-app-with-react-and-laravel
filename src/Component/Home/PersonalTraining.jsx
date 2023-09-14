@@ -7,7 +7,7 @@ class PersonalTraining extends Component {
     render() {
         return (
             <Fragment>
-                <Container className='Personal' fluid={true}> 
+                <div className='Personal'> 
                     <Row className='PersonalTrain'>
                         <Col className='PersonalTrainColumn1' lg={6} md={6} sm={6}>
                             <div className='titlediv'>
@@ -22,7 +22,7 @@ class PersonalTraining extends Component {
                             <img className='personalImage' src={PSlider1}  />
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </Fragment>
         )
     }

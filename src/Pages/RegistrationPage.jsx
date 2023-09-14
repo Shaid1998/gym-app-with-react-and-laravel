@@ -1,16 +1,15 @@
 import React, { Component, Fragment } from 'react'
+import Registration from '../Component/Registration/Registration'
 import NavBar from '../Component/NavBar/NavBar'
-import Join from '../Component/Join/Join'
 import Footer from '../Component/Footer/Footer'
 
-
-class JoinPage extends Component {
+class RegistrationPage extends Component {
   render() {
     return (
       <Fragment>
         <div className='PageSet'>
             <NavBar />
-            <Join />
+            <Registration />
             <Footer />
         </div>
       </Fragment>
@@ -18,4 +17,4 @@ class JoinPage extends Component {
   }
 }
 
-export default JoinPage
+export default RegistrationPage

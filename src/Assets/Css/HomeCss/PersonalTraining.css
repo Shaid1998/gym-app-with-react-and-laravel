@@ -7,7 +7,7 @@
 }
 .PersonalTrain{
     text-decoration: none;
-}
+} 
 
 .MainTitile{
     font-family: Arial, Helvetica, sans-serif;
@@ -20,6 +20,10 @@
 }
 .PersonalTrainColumn1{
     padding-top: 5rem;
+}
+.PersonalTrainColumn2{
+    width: 50%;
+    padding-right: 1rem;
 }
 .titlediv{
     padding-bottom: 1rem;
@@ -67,9 +71,9 @@
 }
 
 .personalImage{
-    height: 500px;
-    width: 750px;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
     display: flex;
     align-items: right;
-    position: absolute;
 }

@@ -119,6 +119,7 @@ a{
 .NavAll{
     background-image: linear-gradient(to right, #0af029 , #e21650 );
     width: 100%;
+    position: top;
 }
 .NavContent{
     width: 100%;

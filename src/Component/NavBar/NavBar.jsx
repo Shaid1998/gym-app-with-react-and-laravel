@@ -28,7 +28,7 @@ class NavBar extends Component {
                         </div>
                         <div className='NavItemButton'>
                             <a className='bsp'><Button href='/join' class="btn btn-primary btn-lg btn-block ButtonSetNav">JOIN NOW</Button></a>
-                            <Button  class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</Button>
+                            <Button href='/reg' class="btn btn-primary btn-lg btn-block ButtonSetNavF">FREE PASS</Button>
                         </div>
                     </Nav>
                     
