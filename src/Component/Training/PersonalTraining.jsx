@@ -7,6 +7,7 @@ class PersonalTraining extends Component {
   render() {
     return (
         <Fragment>
+            <div className='PersonalTraining'></div>
             <Row className='RO1'>
                 <div className='PTR'>
                     <h4 className='PtrTitle'>Become Fitter, Stronger, & More Confident!</h4>
@@ -15,7 +16,7 @@ class PersonalTraining extends Component {
                     <a className='PTrainButTop'><Button href='/personaltraining' className='PtrB' variant="success" size="huge">JOIN NOW</Button></a>
                 </div>
             </Row>
-            <Row className='R22'>
+            <Row className='RO2'>
                 <Col className='CC2' lg={6} md={6} sm={6}>
                     <Form className='Formt'>
                         <div className='form-group'>
@@ -45,18 +46,18 @@ class PersonalTraining extends Component {
                     </div>
                 </Col>
             </Row>
-            <Row className='R3'>
+            <Row className='RO3'>
                 <Col className='C1' lg={6} md={6} sm={6}>
                     <div>
-                        <img className='pTIMG' src={PTraint} />
+                        <img className='pTIMG2' src={PTraint} />
                     </div>
                 </Col>
                 <Col className='C2' lg={6} md={6} sm={6}>
-                    <h1>WHAT YOU GET </h1>
-                    <div className='whymenudivt'>
-                        <h4 className='WhyMenut'><i class="fa-solid fa-square-check"></i>Enjoy your favorite foods & still lose weight meal plan.</h4> 
-                        <h4 className='WhyMenut'><i class="fa-solid fa-square-check"></i>Private sessions with our certified professional.</h4> 
-                        <h4 className='WhyMenut'><i class="fa-solid fa-square-check"></i>Fail proof accountability system.</h4> 
+                    <h1 className='GTitle'>WHAT YOU GET </h1>
+                    <div>
+                        <h4 className='WhyMenut'><i class="fas fa-check"></i>Enjoy your favorite foods & still lose weight meal plan.</h4> 
+                        <h4 className='WhyMenut'><i class="fas fa-check"></i>Private sessions with our certified professional.</h4> 
+                        <h4 className='WhyMenut'><i class="fas fa-check"></i>Fail proof accountability system.</h4> 
                     </div>
                 </Col>
             </Row>

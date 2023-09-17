@@ -1,11 +1,17 @@
+.PersonalTraining{
+    margin: 1px;
+    padding: 1px;
+}
 .RO1{
-    margin: 9.5px;
+    background-color: aqua;
     background-image: url('../../Image/PSlider7.jpg');
     height: 400px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .PTR{
     align-items: center;
-    background-color: rgb(188, 180, 180);
+
 }
 .PtrTitle{
     font-family: Arial, Helvetica, sans-serif;
@@ -25,8 +31,6 @@
     align-items: center;
 }
 .PtrB{
-    padding-left: 15rem;
-    padding-right: 15rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     border: 0;
@@ -46,9 +50,10 @@
     background-color: rgb(229, 246, 70);
     color: rgb(14, 21, 243);
 }
-.R22{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+.RO2{
+    margin-top: 1rem;
+    margin-left: 8px;
+    margin-right: 8px;
     background-color: rgb(188, 180, 180);
 }
 .CC2{
@@ -97,5 +102,49 @@
     width: 50%;
     background-color: rgb(188, 180, 180);
     padding-left: 1rem;
-    padding-right: 2rem;
+}
+.pTIMG1{
+    height: 730px;
+    width: 610px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    align-items: end;
+}
+.RO3{
+    margin-top: 1rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: rgb(188, 180, 180);
+}
+.C1{
+    width: 50%;
+}
+.C2{
+    padding-top: 8rem;
+    padding-left: 2rem;
+    width: 50%;
+}
+.pTIMG2{
+    height: 500px;
+    padding: 1rem;
+    width: 100%;
+    align-items: left;
+}
+.GTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.WhyMenut{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+    padding: 0.5rem;
+}
+.fas{
+    color: aqua;
 }
