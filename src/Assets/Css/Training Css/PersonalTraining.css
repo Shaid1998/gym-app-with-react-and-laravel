@@ -1,0 +1,101 @@
+.RO1{
+    margin: 9.5px;
+    background-image: url('../../Image/PSlider7.jpg');
+    height: 400px;
+}
+.PTR{
+    align-items: center;
+    background-color: rgb(188, 180, 180);
+}
+.PtrTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding-top: 8rem;
+}
+.PtrD{
+    align-items: center;
+}
+.PTrainButTop{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    align-items: center;
+}
+.PtrB{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border: 0;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: rgb(8, 0, 255);
+    color: beige;
+}
+.PtrB:hover{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border: 0;
+    border-radius: 30px;
+    font-size: 26px;
+    background-color: rgb(229, 246, 70);
+    color: rgb(14, 21, 243);
+}
+.R22{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: rgb(188, 180, 180);
+}
+.CC2{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 50%;
+}
+.Formt{
+    border: none;
+}
+.form-controlt{
+    border: 0;
+    border-radius: 25px;
+    background-color: aqua;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 1rem;
+}
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.TrBtnT{
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+}
+.TrBtnT:hover{
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 26px;
+    border: 0;
+    border-radius: 25px;
+    color: red;
+    background-color: aqua;
+}
+
+.CC1{
+    width: 50%;
+    background-color: rgb(188, 180, 180);
+    padding-left: 1rem;
+    padding-right: 2rem;
+}

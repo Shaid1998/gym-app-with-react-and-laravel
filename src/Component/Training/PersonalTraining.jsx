@@ -7,41 +7,41 @@ class PersonalTraining extends Component {
   render() {
     return (
         <Fragment>
-            <Row className='R1'>
-                <div className='TrDescription'>
-                    <h4>Become Fitter, Stronger, & More Confident!</h4>
+            <Row className='RO1'>
+                <div className='PTR'>
+                    <h4 className='PtrTitle'>Become Fitter, Stronger, & More Confident!</h4>
                 </div>
-                <div className='TrDescription'>
-                    <a className='PTrainButTop'><Button href='/personaltraining' variant="success" size="huge">JOIN NOW</Button></a>
+                <div className='PtrD'>
+                    <a className='PTrainButTop'><Button href='/personaltraining' className='PtrB' variant="success" size="huge">JOIN NOW</Button></a>
                 </div>
             </Row>
-            <Row className='R2'>
+            <Row className='R22'>
                 <Col className='CC2' lg={6} md={6} sm={6}>
                     <Form className='Formt'>
                         <div className='form-group'>
-                            <h2 className='FormValuTitilet'>First Name<a className='ImportantSign'>*</a></h2>
+                            <h2 className='FormValuTitile'>First Name<a className='ImportantSign'>*</a></h2>
                             <input type="text" placeholder='First Name' className='form-controlt' />
                         </div>
                         <div className='form-group'>
-                            <h2 className='FormValuTitilet'>Last Name</h2>
+                            <h2 className='FormValuTitile'>Last Name</h2>
                             <input type="text" placeholder='Last Name' className='form-controlt' />
                         </div>
                         <div className='form-group'>
-                            <h2 className='FormValuTitilet'>Email Address<a className='ImportantSign'>*</a></h2>
+                            <h2 className='FormValuTitile'>Email Address<a className='ImportantSign'>*</a></h2>
                             <input type="email" placeholder='Email Address' className='form-controlt' />
                         </div>
                         <div className='form-group'>
-                            <h2 className='FormValuTitilet'>Call NUmber<a className='ImportantSign'>*</a></h2>
+                            <h2 className='FormValuTitile'>Call NUmber<a className='ImportantSign'>*</a></h2>
                             <input type="phone" placeholder='Call Number' className='form-controlt' />
                         </div>
                         <div className='btncl'>
-                          <button className='btn btn-secondary btnCt'>Subscribe</button>
+                        <Button href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
                         </div>
                     </Form>
                 </Col>
                 <Col className='CC1' lg={6} md={6} sm={6}>
                     <div>
-                        <img className='pTIMG' src={PTrain} />
+                        <img className='pTIMG1' src={PTrain} />
                     </div>
                 </Col>
             </Row>
