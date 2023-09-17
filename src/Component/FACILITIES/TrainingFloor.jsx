@@ -6,19 +6,19 @@ class TrainingFloor extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Row>
-            <Col className='C1' lg={6} md={6} sm={6}>
+        <div className='TrainFloor'>
+          <Row className='TrainRoW'>
+            <Col className='COl1' lg={6} md={6} sm={6}>
               <div>
-                <img className='pTIMG'  src={TImg} />
+                <img className='ImgTF'  src={TImg} />
               </div>
             </Col>
-            <Col className='C2' lg={6} md={6} sm={6}>
-              <div className='PTrTitle'>
-                  <h1 className='TrTi'>Training Floor</h1>
+            <Col className='Col2' lg={6} md={6} sm={6}>
+              <div className='FloorT'>
+                  <h1 className='TFTi'>Training Floor</h1>
               </div>
-              <div className='PTrDescription'>
-                  <p className='TrDes'>Our fully renovated 25,000 sq.ft. gym provides you all the space you need to enjoy your pursuit of a healthier and happier you! We offer all the brand names from: MATRIX, NAUTILUS, HAMMER, STAIRMASTER, LIFE FITNESS, TORQUE, and more.</p>
+              <div className='TFDescription'>
+                  <p className='TFDes'>Our fully renovated 25,000 sq.ft. gym provides you all the space you need to enjoy your pursuit of a healthier and happier you! We offer all the brand names from: MATRIX, NAUTILUS, HAMMER, STAIRMASTER, LIFE FITNESS, TORQUE, and more.</p>
               </div>
             </Col>
           </Row>

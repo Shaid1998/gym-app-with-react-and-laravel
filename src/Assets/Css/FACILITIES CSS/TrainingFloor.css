@@ -1,0 +1,42 @@
+.TrainFloor{
+    margin: 9.5px;
+    padding: 1rem;
+    background-color: rgb(133, 134, 135);
+}
+.TrainRoW{
+    text-decoration: none;
+}
+.COl1{
+    width: 50%;
+    align-items: left;
+}
+.ImgTF{
+    height: 450px;
+    width: 100%;
+    padding: 1rem;
+}
+.Col2{
+    width: 50%;
+    align-items: left;
+}
+.FloorT{
+    padding-top: 5rem;
+}
+.TFTi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+    text-align: justify;
+}
+.TFDescription{
+    padding-top: 2rem;
+}
+.TFDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
