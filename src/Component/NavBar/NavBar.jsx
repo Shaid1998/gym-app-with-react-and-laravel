@@ -12,7 +12,7 @@ class NavBar extends Component {
                     <Nav className="d-flex">
                         <div className='NavItemMenu'>
                             <Nav.Link className=' nav-item active NavMenu' href="/">HOME</Nav.Link>
-                            <Nav.Link className='nav-item active NavMenu' href="#action2">TRAINING</Nav.Link>
+                            <Nav.Link className='nav-item active NavMenu' href="/training">TRAINING</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action3">FACILITIES</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="#action4">AMENITIES</Nav.Link>
                             <Nav.Link className='nav-item active NavMenu' href="/join">JOIN</Nav.Link>
