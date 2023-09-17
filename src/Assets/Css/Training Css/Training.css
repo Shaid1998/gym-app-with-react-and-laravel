@@ -1,0 +1,95 @@
+.R1{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: rgb(146, 147, 149);
+}
+.TrTitle{
+    text-align: center;
+    background-image: url('../../Image/PSlider2.jpg');
+    height: 400px;
+    width: 100%;
+}
+.TrHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 300px;
+    color: beige;
+    padding-top: 7.3rem;
+    padding-bottom: 0;
+}
+.TrDescription{
+    background-color: white;
+    text-align: center;
+    height: 150px;
+}
+.DesTr{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic;
+}
+.LineH{
+    width:95%; 
+    height:3px; 
+    background: rgb(54, 247, 67);
+}
+.R2{
+    margin: 1px;
+    padding: 1px;
+}
+.C1{
+    width: 50%;
+    padding: 2rem;
+}
+.pTIMG{
+    height: 450px;
+    width: 100%;
+    align-items: left;
+    padding-left: 7rem;
+}
+.C2{
+    width: 50%;
+    pad: 2rem;
+}
+.PTrTitle{
+    text-align: left;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+.TrTi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.PTrDescription{
+    text-align: justify;
+}
+.TrDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.PTrainBut{
+    padding-top: 4rem;
+    padding-bottom: rem;
+    align-items: center;
+}
+.TrBtn{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+}
+.TrBtn:hover{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 26px;
+    border: 0;
+    border-radius: 25px;
+    color: red;
+    background-color: aqua;
+}
