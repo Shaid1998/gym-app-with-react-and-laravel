@@ -1,7 +1,7 @@
 .TrainFloor{
     margin: 9.5px;
     padding: 1rem;
-    background-color: rgb(133, 134, 135);
+    background-color: rgb(234, 238, 243);
 }
 .TrainRoW{
     text-decoration: none;
@@ -34,7 +34,7 @@
 }
 .TFDes{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     font-style: italic;
     padding-top: 1rem;
