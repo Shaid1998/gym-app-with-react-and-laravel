@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Button, Col, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import TImg from '../../Assets/Image/Fac/Floor.jpg'
 
 class TrainingFloor extends Component {
