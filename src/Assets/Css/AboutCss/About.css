@@ -1,0 +1,47 @@
+.About{
+    margin: 9.5px;
+    background-color: rgb(234, 238, 243);
+}
+.TopRow{
+    background-color: black;
+    height: 250px;
+    text-align: center;
+    width: 1500px;
+}
+.WelcomT{
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    text-align: center;
+    font-style: block;
+    color: aliceblue;
+    padding-top: 4rem;
+}
+.ACl{
+    width: 50%;
+}
+.AC2{
+    padding: 1rem;
+    width: 50%;
+}
+.AboutImg{
+    padding: 1rem;
+    height: 400px;
+    width: 100%;
+}
+.AboutTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    font-style: italic;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.AboutDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 2rem;
+}
