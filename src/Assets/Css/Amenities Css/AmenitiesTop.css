@@ -1,0 +1,36 @@
+
+.AmenitiesTop{
+    margin: 0;
+    padding: 0;
+}
+.AmenitiesTopR{
+    text-decoration: none;
+    height: 400px;
+    width: 100%;
+    
+}
+.AmVideoClass{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    padding: 0;
+    margin: 0; 
+}
+.AmTopB{
+    padding-top: 0;
+    padding-top: 1rem;
+}
+.AmTopT{
+    align-items: center;
+    padding-top: 5rem;
+}
+.AmTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
