@@ -31,14 +31,13 @@
     padding: 1rem;
 }
 .FacilitiesButTop{
+    align-items: center;
     padding-bottom: 2rem;
     padding-top: 5px;
     padding-left: 30rem;
 }
 .FYB{
     text-align: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 25px;
@@ -49,8 +48,6 @@
 }
 .FYB:hover{
     text-align: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 26px;
