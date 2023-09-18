@@ -1,0 +1,41 @@
+.Kids{
+    margin: 9.5px;
+    padding: 1rem;
+    background-color: rgb(234, 238, 243);
+}
+.KidsRo{
+    text-decoration: none;
+}
+.KidCol1{
+    width: 50%;
+}
+.KidTitle{
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+.KidTiTle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    font-style: italic;
+}
+.KidDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 3rem;
+}
+.KidCol2{
+    width: 50%;
+}
+.KidVideoClass{
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    padding: 0;
+    margin: 0; 
+}
