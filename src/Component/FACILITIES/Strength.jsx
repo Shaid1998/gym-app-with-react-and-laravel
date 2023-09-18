@@ -6,21 +6,19 @@ class Strength extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Row>
-            <Col className='C1' lg={6} md={6} sm={6}>
+        <div className='Strength'>
+          <Row className='SRo'>
+            <Col className='SC1' lg={6} md={6} sm={6}>
               <div>
-                <img className='pTIMG'  src={SImg} />
+                <img className='StImg'  src={SImg} />
               </div>
             </Col>
-            <Col className='C2' lg={6} md={6} sm={6}>
-              <div className='PTrTitle'>
-                <h1 className='TrTi'>STRENGTH</h1>
+            <Col className='SC2' lg={6} md={6} sm={6}>
+              <div className='STTitle'>
+                <h1 className='STitle'>STRENGTH</h1>
               </div>
-              <div className='PTrDescription'>
-                <p className='TrDes'>Find everything you need to sculpt, tone, firm, and add metabolic boosting muscle to your body.  Literally tons of free-weights, plate-loaded, and selectorized machines available.
-
-No muscle group will go underworked.</p>
+              <div>
+                <p className='SSubDes'>Find everything you need to sculpt, tone, firm, and add metabolic boosting muscle to your body.  Literally tons of free-weights, plate-loaded, and selectorized machines available.No muscle group will go underworked.</p>
               </div>
             </Col>
           </Row>
