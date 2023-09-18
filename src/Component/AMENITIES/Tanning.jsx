@@ -7,16 +7,16 @@ class Tanning extends Component {
     return (
       <Fragment>
         <div className='Tanning'>
-          <Row className='Recover1G'>
-            <Col className='REco1' lg={6} md={6} sm={6}>
-              <video className='KidVideoClass' src={TVideo} autoPlay loop muted />
+          <Row className='TanningR'>
+            <Col className='Tco1' lg={6} md={6} sm={6}>
+              <video className='TanningVideoClass' src={TVideo} autoPlay loop muted />
             </Col>
-            <Col className='REco2' lg={6} md={6} sm={6}>
-              <div className='RecoT'>
-                  <h1 className='RTi'>Recover nGo</h1>
+            <Col className='Tco2' lg={6} md={6} sm={6}>
+              <div className='TT'>
+                  <h1 className='TTi'>KBL Hybrid Tanning</h1>
               </div>
-              <div className='RecoDescription'>
-                  <p className='RecoDes'>By laying down 10 to 20 minutes in our latest medical breakthrough CRYOLOUNGE+. HumanTouch, or HYDROMASSAGE chairs you will-Ease your body of pain, discomfort, and aches - Relax away the stresses of your daily rat race & Prepare your muscles and mind for your next workout. </p>
+              <div className='TDescription'>
+                  <p className='TDes'>KBL's Hybrid Technology has proven to be dynamically effective in performance and design. With twenty-six high performance UV tubes and twenty-six smart Sunlight tubes combined, this 52 lamp hybrid combination output boasts beautiful tanning, bio positive effects, anti-aging through collagen light, and flawless skin through the cleansing effect of the light's blue ratio.</p>
               </div>
             </Col>
           </Row>
