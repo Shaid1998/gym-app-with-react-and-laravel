@@ -18,7 +18,7 @@ class NavBar extends Component {
                                 <Nav.Link className=' nav-item active NavMenu' href="/">HOME</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="/training">TRAINING</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="/facilities">FACILITIES</Nav.Link>
-                                <Nav.Link className='nav-item active NavMenu' href="#action4">AMENITIES</Nav.Link>
+                                <Nav.Link className='nav-item active NavMenu' href="/amenities">AMENITIES</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="/join">JOIN</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="#action6">ABOUT</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="#action7">BLOG</Nav.Link>

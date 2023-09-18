@@ -6,6 +6,7 @@ import RegistrationPage from '../Pages/RegistrationPage'
 import TrainingPage from '../Pages/TrainingPage'
 import PersonalTrainingPage from '../Pages/PersonalTrainingPage'
 import FacilitiesPage from '../Pages/FacilitiesPage'
+import AmenitiesPage from '../Pages/AmenitiesPage'
 
 
 class AppRoute extends Component {
@@ -19,6 +20,7 @@ class AppRoute extends Component {
                 <Route exact path="/training" element={<TrainingPage />}></Route>
                 <Route exact path="/personaltraining" element={<PersonalTrainingPage />}></Route>
                 <Route exact path="/facilities" element={<FacilitiesPage />}></Route>
+                <Route exact path="/amenities" element={<AmenitiesPage />}></Route>
             </Routes>
         </Fragment>
     )
