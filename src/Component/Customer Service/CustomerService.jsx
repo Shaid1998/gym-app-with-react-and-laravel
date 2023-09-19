@@ -5,9 +5,9 @@ class CustomerService extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Row>
-            <h1>How Can We Help?</h1>
+        <div className='CustomerService'>
+          <Row className='CustomerTitleRow'>
+            <h1 className='CusSerTitle'>How Can We Help?</h1>
           </Row>
           <Row>
             <Col lg={6} md={6} sm={6}>

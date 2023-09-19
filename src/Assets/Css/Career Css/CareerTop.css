@@ -1,7 +1,7 @@
 .CTop{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right, #0a47f0 , #16e224 )
+    background-image: linear-gradient(to right, #0a47f0 , #16e224 );
 }
 .DivRow{
     height: 250px;

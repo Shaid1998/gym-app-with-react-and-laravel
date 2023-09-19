@@ -1,0 +1,18 @@
+.CustomerService{
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.CustomerTitleRow{
+    text-align: center;
+    background-image: linear-gradient(to right, #11120a , #f6f20c );
+    height: 210px;
+}
+.CusSerTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    font-style: italic;
+    padding-top: 4rem;
+    color: aliceblue;
+}
