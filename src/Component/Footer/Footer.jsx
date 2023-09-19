@@ -25,7 +25,7 @@ class Footer extends Component {
                 <Col className='menuRow2' lg={12} md={12} sm={12}>
                   <a className='FooterOp'>Terms Of Use</a>
                   <a className='FooterOp'>Privacy Policy</a>
-                  <a className='FooterOp'>FAQ</a>
+                  <a className='FooterOp' href='/faq'>FAQ</a>
                 </Col>
               </Row>
               <Row>

@@ -13,7 +13,7 @@ class CustomerService extends Component {
             <Col className='ServCol1' lg={6} md={6} sm={6}>
               <a><i class="IconeSer fas fa-dumbbell"></i></a>
               <p className='CusInstra1'>Please visit our FAQ page for commonly asked questions.</p>
-              <Button href='#' className='ServiceButton1'  variant="success">FAQ</Button>
+              <Button href='/faq' className='ServiceButton1'  variant="success">FAQ</Button>
             </Col>
             <Col className='ServCol2' lg={6} md={6} sm={6}>
               <a><i class="IconeSer fas fa-envelope"></i></a>

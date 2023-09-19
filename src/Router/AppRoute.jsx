@@ -10,6 +10,7 @@ import AmenitiesPage from '../Pages/AmenitiesPage'
 import AboutPage from '../Pages/AboutPage'
 import CareerPage from '../Pages/CareerPage'
 import CustomerServicePage from '../Pages/CustomerServicePage'
+import FAQPage from '../Pages/FAQPage'
 
 
 class AppRoute extends Component {
@@ -27,6 +28,7 @@ class AppRoute extends Component {
                 <Route exact path="/about" element={<AboutPage />}></Route>
                 <Route exact path="/career" element={<CareerPage />}></Route>
                 <Route exact path="/customer-service" element={<CustomerServicePage />}></Route>
+                <Route exact path="/faq" element={<FAQPage />}></Route>
             </Routes>
         </Fragment>
     )
