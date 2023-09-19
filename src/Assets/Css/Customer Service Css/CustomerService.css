@@ -8,6 +8,12 @@
     background-image: linear-gradient(to right, #11120a , #f6f20c );
     height: 210px;
 }
+.CustomerContactRow{
+    text-align: center;
+    text-decoration: none;
+    height: 400px;
+    background-color: rgb(193, 196, 199);
+}
 .CusSerTitle{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -15,4 +21,81 @@
     font-style: italic;
     padding-top: 4rem;
     color: aliceblue;
+}
+.ServCol1{
+    width: 50%;
+}
+.ServCol2{
+    width: 50%;
+}
+.IconeSer{
+    font-size: 8rem;
+    color: #0a9521;
+    padding-top: 2rem;
+}
+.IconeSer:hover{
+    font-size: 9rem;
+    color: #250ce7;
+    padding-top: 2rem;
+}
+.CusInstra1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 2.5rem;
+}
+.CusInstra2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+.ServiceButton1{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    border: 0;
+    border-radius: 25px;
+    color: rgb(239, 9, 132);
+    background-color: #250ce7;
+}
+.ServiceButton1:hover{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    border: 0;
+    border-radius: 25px;
+    color: #250ce7;
+    background-color: rgb(243, 42, 79);
+}
+.ServiceButton2{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    border: 0;
+    border-radius: 25px;
+    color: #250ce7;
+    background-color: rgb(239, 9, 132);
+}
+.ServiceButton2:hover{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    border: 0;
+    border-radius: 25px;
+    color: rgb(239, 9, 132);
+    background-color: #250ce7;
 }
