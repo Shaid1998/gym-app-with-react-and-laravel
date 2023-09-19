@@ -11,7 +11,7 @@
     align-items: left;
 }
 .WellnessImgTF{
-    height: 450px;
+    height: 100%;
     width: 100%;
     padding: 1rem;
 }
@@ -27,7 +27,7 @@
     font-weight: 900;
     font-style: italic;
     font-size: 50px;
-    text-align: justify;
+    text-align: center;
 }
 .WellnessTFDescription{
     padding-top: 2rem;
@@ -39,4 +39,5 @@
     font-style: italic;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    text-align: center;
 }

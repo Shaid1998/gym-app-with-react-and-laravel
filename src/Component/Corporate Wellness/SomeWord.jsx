@@ -15,10 +15,11 @@ class SomeWord extends Component {
             </Col>
             <Col className='WellnessCol2' lg={6} md={6} sm={6}>
               <div className='WellnessFloorT'>
-                  <h1 className='WellnessTFTi'>Training Floor</h1>
+                  <h1 className='WellnessTFTi'>A HEALTHY COMPANY IS ALL ABOUT HEALTHY EMPLOYEES</h1>
               </div>
               <div className='WellnessTFDescription'>
-                  <p className='WellnessTFDes'>Our fully renovated 25,000 sq.ft. gym provides you all the space you need to enjoy your pursuit of a healthier and happier you! We offer all the brand names from: MATRIX, NAUTILUS, HAMMER, STAIRMASTER, LIFE FITNESS, TORQUE, and more.</p>
+                  <p className='WellnessTFDes'>We know that at Companies, people understand the importance of exercise, health and fitness in order to increase immunity, have higher energy levels and reduce stress.</p>
+                  <p className='WellnessTFDes'>At 1GYM, we help companies develop strong health and wellness programs to bring mental and physical health to employees helping them increase their productivity in a smart way.</p>
               </div>
             </Col>
           </Row>
