@@ -1,0 +1,40 @@
+.KidsClubCareer{
+    padding: 1rem;
+    background-color: rgb(246, 248, 250);
+}
+.KidsCarRoW{
+    text-decoration: none;
+}
+.KidsCarCol1{
+    width: 50%;
+    align-items: center;
+}
+.KidsCarCol2{
+    width: 50%;
+    align-items: left;
+}
+.KidsCarImg{
+    height: 500px;
+    width: 100%;
+}
+.KidsCarT{
+    padding: 1rem;
+}
+.PerCarTitile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+.KidsCarDescription{
+    padding: 5px;
+}
+.KidsCarDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
