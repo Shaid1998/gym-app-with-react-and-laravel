@@ -5,7 +5,10 @@ import PersonalTrainingCareer from '../Component/Career/PersonalTrainingCareer'
 import KidsClubCareer from '../Component/Career/KidsClubCareer'
 import CleanTeam from '../Component/Career/CleanTeam'
 import WelcomeDesk from '../Component/Career/WelcomeDesk'
+import MembershipAdvisor from '../Component/Career/MembershipAdvisor'
+import MembershipExperienceDirector from '../Component/Career/MembershipExperienceDirector'
 import Footer from '../Component/Footer/Footer'
+
 
 class CareerPage extends Component {
   render() {
@@ -17,6 +20,8 @@ class CareerPage extends Component {
         <KidsClubCareer />
         <CleanTeam />
         <WelcomeDesk />
+        <MembershipAdvisor />
+        <MembershipExperienceDirector />
         <Footer />
       </Fragment>
     )
