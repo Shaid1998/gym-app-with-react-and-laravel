@@ -1,0 +1,40 @@
+.CleaningCareer{
+    padding: 1rem;
+    background-color: rgb(222, 227, 232);
+}
+.CleanCarRoW{
+    text-decoration: none;
+}
+.CleanCarCol1{
+    width: 50%;
+    align-items: center;
+}
+.CleanCarCol2{
+    width: 50%;
+    align-items: left;
+}
+.CleanCarImg{
+    height: 450px;
+    width: 100%;
+}
+.CleanCarT{
+    padding: 1rem;
+}
+.CleanCarTitile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    font-style: italic;
+    padding-top: 2rem;
+    text-align: center;
+}
+.CleanCarDescription{
+    padding: 5px;
+}
+.CleanCarDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
