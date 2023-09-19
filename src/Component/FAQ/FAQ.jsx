@@ -5,9 +5,9 @@ class FAQ extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-            <Row>
-                <h1>Frequently Asked Questions</h1>
+        <div className='FAQ'>
+            <Row className='FAQHeader'>
+                <h1 className='FAQTitle'>Frequently Asked Questions</h1>
             </Row>
             <Row>
                 <Col lg={6} md={6} sm={6}>

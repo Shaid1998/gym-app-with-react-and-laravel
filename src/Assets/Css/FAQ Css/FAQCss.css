@@ -1,0 +1,18 @@
+.FAQ{
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.FAQHeader{
+    background-image: linear-gradient(to right, #0b94cf , #bc0cf6 );
+    text-align: center;
+    height: 210px;
+}
+.FAQTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 90px;
+    padding-top: 3rem;
+    color: aliceblue;
+}
