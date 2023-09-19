@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
 import NavBar from '../Component/NavBar/NavBar'
-import Contact from '../Component/Contact/Contact'
+import Contact from '../Component/Customer Service/CustomerService'
 import Footer from '../Component/Footer/Footer'
 
-class ContactPage extends Component {
+class CustomerServicePage extends Component {
   render() {
     return (
       <Fragment>
@@ -15,4 +15,4 @@ class ContactPage extends Component {
   }
 }
 
-export default ContactPage
+export default CustomerServicePage
