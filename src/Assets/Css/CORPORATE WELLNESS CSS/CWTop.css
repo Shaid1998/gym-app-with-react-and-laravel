@@ -1,0 +1,28 @@
+.CWTop{
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.CWTopR{
+    height: 240px;
+    background-image: linear-gradient(to right, #4409a3 , #0beaf2 );
+    text-align: center;
+    padding-top: 2rem;
+}
+.CWTTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 60px;
+    padding-top: 3.5rem;
+    color: aliceblue;
+}
+.CWTSubTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    padding-top: 0;
+    color: aliceblue;
+}
