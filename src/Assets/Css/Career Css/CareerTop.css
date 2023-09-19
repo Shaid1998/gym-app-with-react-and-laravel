@@ -1,0 +1,28 @@
+.CTop{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #0a47f0 , #16e224 )
+}
+.DivRow{
+    height: 250px;
+    width: 100%;
+    padding-top: 4rem;
+}
+.CarTitle{
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+.CarSubTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
