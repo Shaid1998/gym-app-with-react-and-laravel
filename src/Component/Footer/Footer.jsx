@@ -18,7 +18,7 @@ class Footer extends Component {
                 <Col className='menuRow1' lg={12} md={12} sm={12}>
                   <a className='FooterOp' href='/career'>Careers</a>
                   <a className='FooterOp' href='/customer-service'>Customer Service</a>
-                  <a className='FooterOp'>Corporate Wellness</a>
+                  <a className='FooterOp' href='/corporate-wellness'>Corporate Wellness</a>
                 </Col>
               </Row>
               <Row>
