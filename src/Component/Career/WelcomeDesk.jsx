@@ -10,10 +10,10 @@ class WelcomeDesk extends Component {
           <Row className='WelcomeCarRoW'>
             <Col className='WelcomeCarCol1' lg={6} md={6} sm={6}>
               <div className='WelcomeCarT'>
-                  <h1 className='WelcomeCarTitile'>KIDS CLUB</h1>
+                  <h1 className='WelcomeCarTitile'>WELCOME DESK</h1>
               </div>
               <div className='WelcomeCarDescription'>
-                  <p className='WelcomeCarDes'>If you love kids this is the role for you!  We want our members to know that they can enjoy their workouts while their kids are being cared for by our team.  Earning Potential: starting at $12 per hour</p>
+                  <p className='WelcomeCarDes'>If you have a big smile and positive energy, then we want you to be the first person that every member and guest sees when they enter our gym.  Your priority is to make everyone feel welcome and special as they come and go.  Earning Potential:  starting at $12 per hour</p>
               </div>
             </Col>
             <Col className='WelcomeCarCol2' lg={6} md={6} sm={6}>

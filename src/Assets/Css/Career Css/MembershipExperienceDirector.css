@@ -1,0 +1,40 @@
+.DirectorDeskCareer{
+    padding: 1rem;
+    background-color: rgb(206, 208, 210);
+}
+.DirectorCarRoW{
+    text-decoration: none;
+}
+.DirectorCarCol1{
+    width: 50%;
+    align-items: center;
+}
+.DirectorCarCol2{
+    width: 50%;
+    align-items: left;
+}
+.DirectorCarImg{
+    height: 500px;
+    width: 100%;
+}
+.DirectorCarT{
+    padding: 1rem;
+}
+.DirectorCarTitile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+.DirectorCarDescription{
+    padding: 5px;
+}
+.DirectorCarDes{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
