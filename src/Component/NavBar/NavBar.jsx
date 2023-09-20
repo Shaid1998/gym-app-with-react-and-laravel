@@ -21,7 +21,7 @@ class NavBar extends Component {
                                 <Nav.Link className='nav-item active NavMenu' href="/amenities">AMENITIES</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="/join">JOIN</Nav.Link>
                                 <Nav.Link className='nav-item active NavMenu' href="/about">ABOUT</Nav.Link>
-                                <Nav.Link className='nav-item active NavMenu' href="#action7">BLOG</Nav.Link>
+                                <Nav.Link className='nav-item active NavMenu' href="/all-blog">BLOG</Nav.Link>
                             </div>
                         </Col>
 

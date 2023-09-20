@@ -14,6 +14,8 @@ import FAQPage from '../Pages/FAQPage'
 import CorporateWellnessPage from '../Pages/CorporateWellnessPage'
 import PrivacyCopyPage from '../Pages/PrivacyCopyPage'
 import PrivacyPage from '../Pages/PrivacyPage'
+import BlogPage from '../Pages/BlogPage'
+import ViewDetailsBlogPage from '../Pages/ViewDetailsBlogPage'
 
 
 class AppRoute extends Component {
@@ -35,6 +37,8 @@ class AppRoute extends Component {
                 <Route exact path="/corporate-wellness" element={<CorporateWellnessPage />}></Route>
                 <Route exact path="/terms-of-use" element={<PrivacyCopyPage />}></Route>
                 <Route exact path="/privacy" element={<PrivacyPage />}></Route>
+                <Route exact path="/all-blog" element={<BlogPage />}></Route>
+                <Route exact path="/view-blog-details" element={<ViewDetailsBlogPage />}></Route>
             </Routes>
         </Fragment>
     )
