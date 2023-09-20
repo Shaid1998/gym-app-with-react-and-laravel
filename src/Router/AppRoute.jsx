@@ -12,6 +12,8 @@ import CareerPage from '../Pages/CareerPage'
 import CustomerServicePage from '../Pages/CustomerServicePage'
 import FAQPage from '../Pages/FAQPage'
 import CorporateWellnessPage from '../Pages/CorporateWellnessPage'
+import PrivacyCopyPage from '../Pages/PrivacyCopyPage'
+import PrivacyPage from '../Pages/PrivacyPage'
 
 
 class AppRoute extends Component {
@@ -31,6 +33,8 @@ class AppRoute extends Component {
                 <Route exact path="/customer-service" element={<CustomerServicePage />}></Route>
                 <Route exact path="/faq" element={<FAQPage />}></Route>
                 <Route exact path="/corporate-wellness" element={<CorporateWellnessPage />}></Route>
+                <Route exact path="/copy-of-privacy" element={<PrivacyCopyPage />}></Route>
+                <Route exact path="/privacy" element={<PrivacyPage />}></Route>
             </Routes>
         </Fragment>
     )
