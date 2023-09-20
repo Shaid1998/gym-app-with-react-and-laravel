@@ -33,7 +33,7 @@ class AppRoute extends Component {
                 <Route exact path="/customer-service" element={<CustomerServicePage />}></Route>
                 <Route exact path="/faq" element={<FAQPage />}></Route>
                 <Route exact path="/corporate-wellness" element={<CorporateWellnessPage />}></Route>
-                <Route exact path="/copy-of-privacy" element={<PrivacyCopyPage />}></Route>
+                <Route exact path="/terms-of-use" element={<PrivacyCopyPage />}></Route>
                 <Route exact path="/privacy" element={<PrivacyPage />}></Route>
             </Routes>
         </Fragment>

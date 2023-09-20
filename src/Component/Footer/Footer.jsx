@@ -23,8 +23,8 @@ class Footer extends Component {
               </Row>
               <Row>
                 <Col className='menuRow2' lg={12} md={12} sm={12}>
-                  <a className='FooterOp'>Terms Of Use</a>
-                  <a className='FooterOp' href='/copy-of-privacy'>Privacy Policy</a>
+                  <a className='FooterOp' href='/terms-of-use'>Terms Of Use</a>
+                  <a className='FooterOp' href='/privacy'>Privacy Policy</a>
                   <a className='FooterOp' href='/faq'>FAQ</a>
                 </Col>
               </Row>
