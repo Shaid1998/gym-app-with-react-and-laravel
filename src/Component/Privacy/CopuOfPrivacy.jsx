@@ -90,7 +90,7 @@ class CopuOfPrivacy extends Component {
                 e) FITNESSnGO is under no obligation to either compensate or provide any form of reimbursement in any manner or nature.
             </p>
             <h4>SECTION 6 - PRIVACY POLICY</h4>
-            <p>Every member's registration data and various other personal information are strictly protected by the FITNESS NGO 1 LLC Online Privacy Policy (see the full Privacy Policy at http://localhost:3000/privacy). As a member, you herein consent to the collection and use of the information provided, including the transfer of information within the United States and/or other countries for storage, processing or use by FITNESS NGO 1 LLC and/or our subsidiaries and affiliates.</p>
+            <p>Every member's registration data and various other personal information are strictly protected by the FITNESS NGO 1 LLC Online Privacy Policy . As a member, you herein consent to the collection and use of the information provided, including the transfer of information within the United States and/or other countries for storage, processing or use by FITNESS NGO 1 LLC and/or our subsidiaries and affiliates.</p>
 
         </div>
       </Fragment>
