@@ -7,7 +7,10 @@
 
 .CardMain{
     border: 1px;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 0;
 }
 .TopRow{
     text-decoration: none;
@@ -16,10 +19,11 @@
     height: 100px;
 }
 .TopCol1{
-    width: 25%;
+    width: 20%;
+    padding-left: 0;
 }
 .TopCol2{
-    width: 75%;
+    width: 80%;
 }
 .AdminImage{
     width: 70px;
@@ -27,7 +31,7 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: blue;
-    margin-left: 225px;
+    margin-left: 100px;
     margin-top: 15px;
     display:inline-block;
     vertical-align:middle;
@@ -60,16 +64,19 @@ img{
 }
 .DotSp{
     font-size: 20px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 1rem;
+    margin: 0;
 }
 .TimeSp{
     text-align: left;
+    margin: 0;
+    padding: 0;
 }
 .MiDRow{
     padding-top: 1rem;
-    padding-left: 12rem;
+    padding-left: 8rem;
     padding-right: 2rem;
 }
 .MidDiv{
@@ -102,7 +109,7 @@ hr {
 }
 .LastRow{
     padding-top: 1rem;
-    padding-left: 12rem;
+    padding-left: 8rem;
     padding-right: 2rem;
 }
 .LastCol1{
@@ -164,6 +171,8 @@ hr {
     color:rgb(105, 245, 36);
     border: 2px;
     border-color: red;
+    padding-left: 5px;
+    padding-bottom: 2px;
     text-transform: uppercase;
     cursor: pointer;
  }
@@ -174,4 +183,15 @@ hr {
     border-color: red;
     text-transform: uppercase;
     cursor: pointer;
+ }
+ .LastImgCol{
+    width: 25%;
+ }
+ .LastTextCol{
+    width: 75%;
+ }
+ .ImgBlog{
+    width: 100%;
+    padding-left: 3rem;
+    height: fit-content;
  }
