@@ -8,8 +8,8 @@ class AllBlog extends Component {
     return (
       <Fragment>
         <div className='Blog'>
-          <Row >
-            <Card onSelect='/view-blog-details' className='CardMain'>
+          <Row>
+            <Card className='CardMain'>
               <Row className='TopRow'>
                 <Col className='TopCol1' lg={6} sm={6} md={6}>
                   <img className='AdminImage' src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=996&t=st=1695280051~exp=1695280651~hmac=043c54105936ee716c49709f129f168f979cd85ab82266d0dc8bdf9ed2b16ae7" />
