@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {RiHeart3Fill} from 'react-icons/ri';
 import React, { Component, Fragment } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 
@@ -38,7 +38,9 @@ class AllBlog extends Component {
                 </Row>
               </Col>
               <Col className='LastMidCol3' lg={6} sm={6} md={6}>
-                <h1 className='ReactionClass'>Reaction</h1>
+                <div>
+                  <h1 className='ReactionClass'>2 <RiHeart3Fill className="heart"/></h1>
+                </div>
               </Col>
             </Row>
           </Card>
