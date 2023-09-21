@@ -2,7 +2,9 @@
     margin: 0;
     padding-left: 1rem;
     padding-right: 1rem;
+    cursor: pointer;
 }
+
 .CardMain{
     border: 1px;
     padding: 1rem;
@@ -10,7 +12,7 @@
 .TopRow{
     text-decoration: none;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(250, 251, 252);
     height: 100px;
 }
 .TopCol1{
@@ -35,7 +37,6 @@ img{
 }
 .Badge{
     background-attachment: green;
-    visibility: top;
 }
 .AdminName{
     font-family: 'Times New Roman', Times, serif;
@@ -56,5 +57,105 @@ img{
     text-align: left;
     text-decoration: none;
     color: black;
-    white-space: no-wrap;
+}
+.DotSp{
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.TimeSp{
+    text-align: left;
+}
+.MiDRow{
+    padding-top: 1rem;
+    padding-left: 12rem;
+    padding-right: 2rem;
+}
+.MidDiv{
+    text-align: center;
+    text-decoration: none;
+}
+.BlogTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    padding: 5px;
+}
+.BlogSubTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 10px;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 20px;
+}
+hr { 
+    width:100%; 
+    height:1.5px; 
+    background: black 
+}
+.LastRow{
+    padding-top: 1rem;
+    padding-left: 12rem;
+    padding-right: 2rem;
+}
+.LastCol1{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.LastCol2{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    padding-right: 1rem;
+    width: 50%;
+}
+.LastMidRow{
+    width: 100%;
+}
+.LastMidCol1{
+    width: 30%;
+}
+.LastMidCol2{
+    width: 70%;
+}
+.LastMidCol3{
+    width: 50%;
+}
+.ViewCountClass{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+}
+.CommentsCountClass{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+}
+.ReactionClass{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: end;
+    padding-right: 3rem;
 }

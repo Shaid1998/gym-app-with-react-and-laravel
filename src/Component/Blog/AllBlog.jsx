@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { Component, Fragment } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 
@@ -13,31 +14,31 @@ class AllBlog extends Component {
               </Col>
               <Col className='TopCol1' lg={6} sm={6} md={6}>
                 <Row className='MidRow1'>
-                    <h1 className='AdminName'>Zona Labs</h1><i class=" Badge fab fa-badge-check"></i>
-                    <a className='DateSome'>Date</a>
-                    <a className='DateSome'>Date</a>
-                    <a className='DateSome'>Date</a>
+                    <h1 className='AdminName'>Zona Labs</h1>
+                    <a className='DateSome'>Post Date: September 21   <span className='DotSp'>.</span> <span className='TimeSp'>Posting Time: 2:16 PM</span></a>
                 </Row>
-                
               </Col>
             </Row>
-            <Card.Body>
-              <Card.Title>Accelerate Your Recovery with Cryo Therapy at FITNESS nGO in Port Saint Lucie</Card.Title>
-              <Card.Text>Welcome to FITNESS nGO, where we believe that a well-rounded fitness routine includes not only challenging workouts but also effective...</Card.Text>
-            </Card.Body>
-            <Row>
-              <Col lg={6} sm={6} md={6}>
-                <Row>
-                  <Col lg={6} sm={6} md={6}>
-                    <h1>Views</h1>
+            <Row className='MiDRow'>
+              <div className='MidDiv'>
+                <h4 className='BlogTitle'>Accelerate Your Recovery with Cryo Therapy at FITNESS nGO in Port Saint Lucie</h4>
+                <p className='BlogSubTitle'>Welcome to FITNESS nGO, where we believe that a well-rounded fitness routine includes not only challenging workouts but also effective...</p>
+              </div>
+              <hr />
+            </Row>
+            <Row className='LastRow'>
+              <Col className='LastCol1' lg={6} sm={6} md={6}>
+                <Row className='LastMidRow'>
+                  <Col className='LastMidCol1' lg={6} sm={6} md={6}>
+                    <h1 className='ViewCountClass'>Total Views: 42 <span>times</span></h1>
                   </Col>
-                  <Col lg={6} sm={6} md={6}>
-                    <h1>Times Count</h1>
+                  <Col className='LastMidCol2' lg={6} sm={6} md={6}>
+                    <h1 className='CommentsCountClass'>Total Comments: 0 <span>times</span></h1>
                   </Col>
                 </Row>
               </Col>
-              <Col lg={6} sm={6} md={6}>
-                <h1>Reaction</h1>
+              <Col className='LastMidCol3' lg={6} sm={6} md={6}>
+                <h1 className='ReactionClass'>Reaction</h1>
               </Col>
             </Row>
           </Card>
