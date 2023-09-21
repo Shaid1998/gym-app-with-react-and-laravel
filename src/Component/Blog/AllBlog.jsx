@@ -13,22 +13,14 @@ class AllBlog extends Component {
               </Col>
               <Col className='TopCol1' lg={6} sm={6} md={6}>
                 <Row className='MidRow1'>
-                    <h1>Admin</h1>
+                    <h1 className='AdminName'>Zona Labs</h1><i class=" Badge fab fa-badge-check"></i>
+                    <a className='DateSome'>Date</a>
+                    <a className='DateSome'>Date</a>
+                    <a className='DateSome'>Date</a>
                 </Row>
-                <Row className='MidRow2'>
-                  <Col className='MidCol1' lg={4} sm={4} md={4}>
-                    <h6>Date</h6>
-                  </Col>
-                  <Col className='MidCol2' lg={4} sm={4} md={4}>
-                    <h1>.</h1>
-                  </Col>
-                  <Col className='MidCol3' lg={4} sm={4} md={4}>
-                    <h6>time</h6>
-                  </Col>
-                </Row>
+                
               </Col>
             </Row>
-            
             <Card.Body>
               <Card.Title>Accelerate Your Recovery with Cryo Therapy at FITNESS nGO in Port Saint Lucie</Card.Title>
               <Card.Text>Welcome to FITNESS nGO, where we believe that a well-rounded fitness routine includes not only challenging workouts but also effective...</Card.Text>

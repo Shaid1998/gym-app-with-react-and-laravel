@@ -33,18 +33,28 @@
 img{
     width:100%;
 }
+.Badge{
+    background-attachment: green;
+    visibility: top;
+}
+.AdminName{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    margin-top: 2rem;
+}
 .MidRow1{
     width: 100%;
 }
-.MidRow2{
-    width: 100%;
-}
-.MidCol1{
-    width: 33.33%;
-}
-.MidCol2{
-    width: 33.33%;
-}
-.MidCol3{
-    width: 33.33%;
+.DateSome{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    white-space: no-wrap;
 }
