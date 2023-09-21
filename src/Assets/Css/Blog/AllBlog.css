@@ -195,3 +195,8 @@ hr {
     padding-left: 3rem;
     height: fit-content;
  }
+ .AllLink:hover{
+    font-size: 25px;
+    font-weight: 600;
+    color: aqua;
+ }
