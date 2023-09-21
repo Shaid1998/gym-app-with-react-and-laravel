@@ -1,0 +1,50 @@
+.Blog{
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.CardMain{
+    border: 1px;
+    padding: 1rem;
+}
+.TopRow{
+    text-decoration: none;
+    width: 100%;
+    background-color: aliceblue;
+    height: 100px;
+}
+.TopCol1{
+    width: 25%;
+}
+.TopCol2{
+    width: 75%;
+}
+.AdminImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    margin-left: 225px;
+    margin-top: 15px;
+    display:inline-block;
+    vertical-align:middle;
+}
+img{
+    width:100%;
+}
+.MidRow1{
+    width: 100%;
+}
+.MidRow2{
+    width: 100%;
+}
+.MidCol1{
+    width: 33.33%;
+}
+.MidCol2{
+    width: 33.33%;
+}
+.MidCol3{
+    width: 33.33%;
+}
