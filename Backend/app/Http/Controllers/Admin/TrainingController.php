@@ -8,5 +8,8 @@ use App\Models\TrainingModel;
 
 class TrainingController extends Controller
 {
-    
+    public function onAllSelect(){
+        $result = TrainingModel::all();
+        return $result;
+    }//End Method
 }
