@@ -21,22 +21,22 @@ class PersonalTraining extends Component {
                     <Form className='Formt'>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>First Name<a className='ImportantSign'>*</a></h2>
-                            <input type="text" placeholder='First Name' className='form-controlt' />
+                            <input name='fname' type="text" id='fname' placeholder='First Name' className='form-controlt' />
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Last Name</h2>
-                            <input type="text" placeholder='Last Name' className='form-controlt' />
+                            <input name='lname' type="text" id='lname' placeholder='Last Name' className='form-controlt' />
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Email Address<a className='ImportantSign'>*</a></h2>
-                            <input type="email" placeholder='Email Address' className='form-controlt' />
+                            <input name='email' id='email' type="email" placeholder='Email Address' className='form-controlt' />
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Call NUmber<a className='ImportantSign'>*</a></h2>
                             <input type="phone" placeholder='Call Number' className='form-controlt' />
                         </div>
                         <div className='btncl'>
-                        <Button href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
+                        <Button type='submit' href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
                         </div>
                     </Form>
                 </Col>
