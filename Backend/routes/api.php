@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\TrainingController;
+use App\Http\Controllers\Admin\SubscribeDataController;
 
 
 
@@ -12,3 +13,4 @@ use App\Http\Controllers\Admin\TrainingController;
 
 //Training Route
 Route::get('/alltraining', [TrainingController::class,'onAllSelect']);
+Route::post('/senddata', [SubscribeDataController::class,'sendclientdata']);
