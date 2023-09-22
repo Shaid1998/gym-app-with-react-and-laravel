@@ -2,6 +2,8 @@ import {RiHeart3Fill} from 'react-icons/ri';
 import React, { Component, Fragment } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import BlogImg from '../../Assets/Image/CustomerService/blog.jpg'
+import { Badge } from 'flowbite-react'
+import { HiCheck } from 'react-icons/hi'
 
 class AllBlog extends Component {
   render() {
@@ -17,7 +19,7 @@ class AllBlog extends Component {
                   </Col>
                   <Col className='TopCol1' lg={6} sm={6} md={6}>
                     <Row className='MidRow1'>
-                        <h1 className='AdminName'>Zona Labs</h1>
+                        <h1 className='AdminName'>Zona Labs<Badge icon={HiCheck} /></h1>
                         <a className='DateSome'>Post Date: September 21   <span className='DotSp'>.</span> Posting Time: 2:16 PM</a>
                     </Row>
                   </Col>
@@ -58,7 +60,7 @@ class AllBlog extends Component {
                   </Col>
                   <Col className='TopCol1' lg={6} sm={6} md={6}>
                     <Row className='MidRow1'>
-                        <h1 className='AdminName'>Zona Labs</h1>
+                        <h1 className='AdminName'>Zona Labs<Badge icon={HiCheck} /></h1>
                         <a className='DateSome'>Post Date: September 21   <span className='DotSp'>.</span> Posting Time: 2:16 PM</a>
                     </Row>
                   </Col>
@@ -103,7 +105,7 @@ class AllBlog extends Component {
                     </Col>
                     <Col className='TopCol1' lg={6} sm={6} md={6}>
                       <Row className='MidRow1'>
-                          <h1 className='AdminName'>Zona Labs</h1>
+                          <h1 className='AdminName'>Zona Labs<Badge icon={HiCheck} /></h1>
                           <a className='DateSome'>Post Date: September 21   <span className='DotSp'>.</span> Posting Time: 2:16 PM</a>
                       </Row>
                     </Col>
