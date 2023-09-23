@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import PTrain from '../../Assets/Image/Training/ptrain.jpg'
-import BaseUrl from '../../BaseUrl/BaseUrl';
-import RestClient from '../../BaseUrl/RestClient';
+import BaseUrl from '../../BaseUrl/BaseUrl'
+import RestClient from '../../BaseUrl/RestClient'
 
 class Training extends Component {
     constructor(){

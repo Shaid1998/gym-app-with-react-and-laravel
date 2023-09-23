@@ -15,3 +15,4 @@ use App\Http\Controllers\Admin\SubscribeDataController;
 Route::get('/alltraining', [TrainingController::class,'onAllSelect']);
 Route::post('/senddata', [SubscribeDataController::class,'sendclientdata']);
 Route::get('/allsubscribe', [SubscribeDataController::class,'clientdata']);
+Route::get('/traininghome', [TrainingController::class,'trainingAllData']);
