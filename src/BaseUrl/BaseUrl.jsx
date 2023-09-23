@@ -10,6 +10,7 @@ class BaseUrl{
     static AllExperienceDataShow = this.BaseURL+'/experienceall';
     static AllRecoveryDataShow = this.BaseURL+'/recoveryall';
     static AllTurfZoneDataShow = this.BaseURL+'/turfzoneall';
+    static AllAtmosphereDataShow = this.BaseURL+'/atmosphereall';
 }
 
 export default BaseUrl

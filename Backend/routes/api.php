@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\WhyUsController;
 use App\Http\Controllers\Admin\ExperienceController;
 use App\Http\Controllers\Admin\RecoveryController;
 use App\Http\Controllers\Admin\TurfZoneController;
+use App\Http\Controllers\Admin\AtmosphereController;
 
 
 
@@ -32,4 +33,7 @@ Route::get('/recoveryall', [RecoveryController::class,'recoveryAllData']);
 
 //TURF ZONE Controller
 Route::get('/turfzoneall', [TurfZoneController::class,'turfZoneAllData']);
+
+//Atmosphere Controller
+Route::get('/atmosphereall', [AtmosphereController::class,'atmosphereAllData']);
 
