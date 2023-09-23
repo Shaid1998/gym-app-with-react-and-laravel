@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('facilities', function (Blueprint $table) {
             $table->id();
+            $table->string('facilities_title')->nullable();
+            $table->text('facilities_Sub_title')->nullable();
+            $table->string('facilities_image')->nullable();
             $table->timestamps();
         });
     }
