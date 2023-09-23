@@ -8,11 +8,11 @@ class Training extends Component {
     constructor(){
         super();
         this.state={
-            training_top_title:'.......',
-            training_top_sub_title:'.......',
-            taining_title:'.......',
-            taining_details:'.......',
-            training_image:'.......'
+            training_top_title:'loading data.......',
+            training_top_sub_title:'loading data.......',
+            taining_title:'loading data.......',
+            taining_details:'loading data.......',
+            training_image:'loading data.......'
         }
       }
       componentDidMount(){

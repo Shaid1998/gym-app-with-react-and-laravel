@@ -9,11 +9,11 @@ class PersonalTraining extends Component {
     constructor(){
         super();
         this.state={
-            training_title_1:'.......',
-            training_title_2:'.......',
-            training_title_3:'.......',
-            training_description:'.......',
-            image:'.......'
+            training_title_1:'loading data.......',
+            training_title_2:'loading data.......',
+            training_title_3:'loading data.......',
+            training_description:'loading data.......',
+            image:'loading data.......'
         }
       }
       componentDidMount(){
