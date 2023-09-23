@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\RecoveryController;
 use App\Http\Controllers\Admin\TurfZoneController;
 use App\Http\Controllers\Admin\AtmosphereController;
 use App\Http\Controllers\Admin\JoinController;
+use App\Http\Controllers\Admin\FooterController;
 
 
 
@@ -41,3 +42,5 @@ Route::get('/atmosphereall', [AtmosphereController::class,'atmosphereAllData']);
 //Join Controller
 Route::get('/joinhomeall', [JoinController::class,'JoinHomeAllData']);
 
+//Footer Controller
+Route::get('/footerall', [FooterController::class,'FooterAllData']);
