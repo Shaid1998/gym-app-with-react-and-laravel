@@ -69,8 +69,7 @@ class Footer extends Component {
               <div>
                 <a src={this.state.facebook}><i className="fab m-1 h4 fa-facebook SocialFooter"></i></a>
                 <a src={this.state.instagram}><i className="fab m-1 h4 fa-instagram SocialFooter"></i></a>
-                <a src={this.state.twitter}><i className="fab m-1 h4 fa-twitter Social
-                Footer"></i></a>
+                <a src={this.state.twitter}><i className="fab m-1 h4 fa-twitter SocialFooter"></i></a>
               </div>
             </Col>
           </Row>
