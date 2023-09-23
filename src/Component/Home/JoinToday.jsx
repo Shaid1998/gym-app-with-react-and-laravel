@@ -31,7 +31,7 @@ class JoinToday extends Component {
                         <iframe src={this.state.Join_Today_map} width="100%" height="350" style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-            </Fragment> 
+            </Fragment>
         )
     }
 }
