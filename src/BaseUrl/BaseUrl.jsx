@@ -16,6 +16,7 @@ class BaseUrl{
     static AllTrainingFloorDataShow = this.BaseURL+'/trainingfloor';
     static AllCardioDataShow = this.BaseURL+'/cardioall';
     static AllFacilitiesDataShow = this.BaseURL+'/facilitiesall';
+    static AllStrengthDataShow = this.BaseURL+'/strengthall';
 }
 
 export default BaseUrl
