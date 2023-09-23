@@ -36,7 +36,8 @@ Route::get('/whyusall', [WhyUsController::class,'whyUsAllData']);
 Route::get('/experienceall', [ExperienceController::class,'experienceAllData']);
 
 //Recovery Controller
-Route::get('/recoveryall', [RecoveryController::class,'recoveryAllData']);
+Route::get('/recoveryall', [RecoveryController::class,'recoveryFristData']);
+Route::get('/recoverylastall', [RecoveryController::class,'recoveryLastData']);
 
 //TURF ZONE Controller
 Route::get('/turfzoneall', [TurfZoneController::class,'turfZoneAllData']);
