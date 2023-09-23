@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import FLogo from '../../Assets/Image/Brand.jpg'
 import BaseUrl from '../../BaseUrl/BaseUrl'
 import RestClient from '../../BaseUrl/RestClient'
