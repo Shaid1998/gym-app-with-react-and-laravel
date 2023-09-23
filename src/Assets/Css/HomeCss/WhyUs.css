@@ -28,7 +28,7 @@
     width: 50%;
 }
 .whytitlediv{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .WHYMainDescription{
     font-family: 'Times New Roman', Times, serif;
@@ -40,9 +40,9 @@
     display: flex;
     padding-left: 3rem;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
-.JoinButton{
+.JoinButton1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 30px;
@@ -50,11 +50,11 @@
     margin-left: 5rem;
     padding-left:  10px;
     border: white;
-    border-radius: 2px;
+    border-radius: 25px;
     background-color: rgb(13, 249, 13);
     color: black;
 }
-.JoinButton:hover{
+.JoinButton1:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 50px;
@@ -65,24 +65,23 @@
     color: yellow;
     transition: 0.8s;
 }
-.buttonClass{
+.buttonClass1{
     padding-top: 2rem;
 }
 .image{
-    height: 600px;
+    height: 700px;
     width: 650px;
     display: flex;
     align-items: left;
-    padding-left: 1rem;
-    padding-top: 2rem;
+    padding: 1rem;
 }
 
-.checkSet{
+.checkSet1{
     color: rgb(37, 244, 37);
     padding-right: 1rem;
     font-size: 60px;  
 }
-.WhyMenu{
+.WhyMenu1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 40px;
@@ -93,6 +92,6 @@
     position: absolute;
     z-index: -1;
     width: 98.8%;
-    height: 710px;
+    height: 810px;
     object-fit: cover;
 }
