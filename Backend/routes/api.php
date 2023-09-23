@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\TurfZoneController;
 use App\Http\Controllers\Admin\AtmosphereController;
 use App\Http\Controllers\Admin\JoinController;
 use App\Http\Controllers\Admin\FooterController;
+use App\Http\Controllers\Admin\CardioController;
 
 
 
@@ -45,3 +46,6 @@ Route::get('/joinhomeall', [JoinController::class,'JoinHomeAllData']);
 
 //Footer Controller
 Route::get('/footerall', [FooterController::class,'FooterAllData']);
+
+//Footer Controller
+Route::get('/cardioall', [CardioController::class,'CardioAllData']);
