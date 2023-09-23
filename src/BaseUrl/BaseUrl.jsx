@@ -13,6 +13,7 @@ class BaseUrl{
     static AllAtmosphereDataShow = this.BaseURL+'/atmosphereall';
     static AllJoinTodayDataShow = this.BaseURL+'/joinhomeall';
     static AllFooterDataShow = this.BaseURL+'/footerall';
+    static AllTrainingFloorDataShow = this.BaseURL+'/trainingfloor';
 }
 
 export default BaseUrl

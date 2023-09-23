@@ -23,6 +23,7 @@ Route::get('/alltraining', [TrainingController::class,'onAllSelect']);
 Route::post('/senddata', [SubscribeDataController::class,'sendclientdata']);
 Route::get('/allsubscribe', [SubscribeDataController::class,'clientdata']);
 Route::get('/traininghome', [TrainingController::class,'trainingAllData']);
+Route::get('/trainingfloor', [TrainingController::class,'trainingFloorAllData']);
 
 //WHY US Controller
 Route::get('/whyusall', [WhyUsController::class,'whyUsAllData']);
