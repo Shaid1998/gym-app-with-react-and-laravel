@@ -61,3 +61,4 @@ Route::get('/strengthall', [StrenngthController::class,'StrengthAllData']);
 
 //Aminities Controller
 Route::get('/aminitiestopall', [AminitiesController::class,'AminitiesTopAllData']);
+Route::get('/kidscluball', [AminitiesController::class,'KidsClubAllData']);

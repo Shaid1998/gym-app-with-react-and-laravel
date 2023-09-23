@@ -1,8 +1,28 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import AVideo from '../../Assets/Video/AMENITIESKidsClub.mp4'
+import BaseUrl from '../../BaseUrl/BaseUrl'
+import RestClient from '../../BaseUrl/RestClient'
 
 class KidsClub extends Component {
+  constructor(){
+    super();
+    this.state={
+      Kids_Club_title:'loading data.......',
+      Kids_Club_time_title:'loading data.......',
+      Kids_Club_time_1:'loading data.......',
+      Kids_Club_time_2:'loading data.......',
+      Kids_Club_Description:'loading data.......',
+      Kids_Club_video:'loading data.......'
+    }
+  }
+  componentDidMount(){
+    RestClient.GetRequest(BaseUrl.AllKidsClubDataShow).then(result=>{
+        this.setState({Kids_Club_title:result[0]['Kids_Club_title'],Kids_Club_time_title:result[0]['Kids_Club_time_title'],Kids_Club_time_1:result[0]['Kids_Club_time_1'],Kids_Club_time_2:result[0]['Kids_Club_time_2'],Kids_Club_Description:result[0]['Kids_Club_Description'],Kids_Club_video:result[0]['Kids_Club_video']});
+    }).catch(error=>{
+      this.setState({Kids_Club_title:'???',Kids_Club_time_title:'???',Kids_Club_time_1:'???',Kids_Club_time_2:'???',Kids_Club_Description:'???',Kids_Club_video:'???'})
+    })
+  }
   render() {
     return (
       <Fragment>
@@ -10,12 +30,12 @@ class KidsClub extends Component {
           <Row className='KidsRo'>
               <Col className='KidCol1' lg={6} md={6} sm={6}>
                 <div className='KidTitle'>
-                    <h1 className='KidTiTle'>Kids Club</h1>
+                    <h1 className='KidTiTle'>{this.state.Kids_Club_title}</h1>
                 </div>
-                <p className='KidDes'>Sorry parents. We have removed using your kids as an excuse for why you don't have time. Your children will have a blast in our all new club while you attack your goals out on the gym floor. (6 months to 12 years permitted)</p>
-                <h6 className='KidDes'>Hours:</h6>
-                <h6 className='KidDes'>Weekdays: 8 am - 12 pm & 4 pm - 8 pm</h6>
-                <h6 className='KidDes'>Saturday: 8 am to 12 pm</h6>
+                <p className='KidDes'>{this.state.Kids_Club_Description}</p>
+                <h6 className='KidDes'>{this.state.Kids_Club_time_title}</h6>
+                <h6 className='KidDes'>{this.state.Kids_Club_time_1}</h6>
+                <h6 className='KidDes'>{this.state.Kids_Club_time_2}</h6>
 
               </Col>
               <Col className='KidCol2' lg={6} md={6} sm={6}>
