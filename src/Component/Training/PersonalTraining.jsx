@@ -2,8 +2,8 @@ import React, { Component, Fragment } from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import PTrain from '../../Assets/Image/Training/PTPG.jpg'
 import PTraint from '../../Assets/Image/Training/PT.jpg'
-import axios from 'axios';
-
+import RestClient from '../../BaseUrl/RestClient'
+import AppUrl from '../../BaseUrl/BaseUrl'
 class PersonalTraining extends Component {
     constructor(props){
         super(props);
@@ -14,12 +14,6 @@ class PersonalTraining extends Component {
             email : '',
             phone : ''
         }
-
-        this.fname = this.fname.bind(this);
-        this.lname = this.lname.bind(this);
-        this.phone = this.phone.bind(this);
-        this.email = this.email.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
     fname(event){
         this.setState({fname : event.target.value})
@@ -39,8 +33,8 @@ class PersonalTraining extends Component {
         let email = document.getElementById("email").value;
         let phone = document.getElementById("phone").value;
 
-        let jsonObject = {fname:fname,email:email,message:message}
-          RestClient.PostRequest(AppUrl.ContactSend,JSON.stringify(jsonObject)).then(result=>{
+        let jsonObject = {fname:fname,lname:lname, email:email,phone:phone}
+          RestClient.PostRequest(AppUrl.SubscribeData,JSON.stringify(jsonObject)).then(result=>{
                alert(result);
           }).catch(error=>{
                alert("Error");
@@ -79,7 +73,7 @@ class PersonalTraining extends Component {
                             <input type="phone" placeholder='Call Number' className='form-controlt' />
                         </div>
                         <div className='btncl'>
-                        <Button type='submit' onClick={this.handleSubmit} href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
+                        <Button type='submit' onClick={this.sendContact} href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
                         </div>
                     </Form>
                 </Col>
