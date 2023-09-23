@@ -14,6 +14,7 @@ use App\Http\Controllers\Admin\FooterController;
 use App\Http\Controllers\Admin\CardioController;
 use App\Http\Controllers\Admin\FacilitiesController;
 use App\Http\Controllers\Admin\StrenngthController;
+use App\Http\Controllers\Admin\AminitiesController;
 
 
 
@@ -57,3 +58,6 @@ Route::get('/facilitiesall', [FacilitiesController::class,'FacilitiesAllData']);
 
 //Strength Controller
 Route::get('/strengthall', [StrenngthController::class,'StrengthAllData']);
+
+//Aminities Controller
+Route::get('/aminitiestopall', [AminitiesController::class,'AminitiesTopAllData']);

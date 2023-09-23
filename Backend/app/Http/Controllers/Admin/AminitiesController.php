@@ -8,7 +8,7 @@ use App\Models\AmenitiesTop;
 
 class AminitiesController extends Controller
 {
-    public function AmenitiesAllData(){
+    public function AminitiesTopAllData(){
         $result = AmenitiesTop::all();
         return $result;
     }//End Method
