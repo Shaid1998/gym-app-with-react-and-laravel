@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\SubscribeDataController;
 use App\Http\Controllers\Admin\WhyUsController;
 use App\Http\Controllers\Admin\ExperienceController;
 use App\Http\Controllers\Admin\RecoveryController;
+use App\Http\Controllers\Admin\TurfZoneController;
 
 
 
@@ -28,4 +29,7 @@ Route::get('/experienceall', [ExperienceController::class,'experienceAllData']);
 
 //Recovery Controller
 Route::get('/recoveryall', [RecoveryController::class,'recoveryAllData']);
+
+//TURF ZONE Controller
+Route::get('/turfzoneall', [TurfZoneController::class,'turfZoneAllData']);
 
