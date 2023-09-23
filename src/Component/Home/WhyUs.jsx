@@ -2,8 +2,32 @@ import React, { Component, Fragment } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import PSlider1 from '../../Assets/Image/PSlider2.jpg'
 import video from '../../Assets/Video/BackgroundTop.mp4'
+import BaseUrl from '../../BaseUrl/BaseUrl'
+import RestClient from '../../BaseUrl/RestClient'
 
 class WhyUs extends Component {
+    constructor(){
+        super();
+        this.state={
+            why_us_title:'.......',
+            why_us_sub_title:'.......',
+            why_us_option_1:'.......',
+            why_us_option_2:'.......',
+            why_us_option_3:'.......',
+            why_us_option_4:'.......',
+            why_us_option_5:'.......',
+            why_us_option_6:'.......',
+            why_us_image:'.......',
+            why_us_video:'.......'
+        }
+      }
+      componentDidMount(){
+        RestClient.GetRequest(BaseUrl.AllWHyUsDataShow).then(result=>{
+            this.setState({why_us_title:result[0]['why_us_title'],why_us_sub_title:result[0]['why_us_sub_title'],why_us_option_1:result[0]['why_us_option_1'],why_us_option_2:result[0]['why_us_option_2'],why_us_option_3:result[0]['why_us_option_3'],why_us_option_4:result[0]['why_us_option_4'],why_us_option_5:result[0]['why_us_option_5'],why_us_option_6:result[0]['why_us_option_6'],why_us_image:result[0]['why_us_image'],why_us_video:result[0]['why_us_video']});
+        }).catch(error=>{
+          this.setState({why_us_title:'???',why_us_sub_title:'???',why_us_option_1:'???',why_us_option_2:'???',why_us_option_3:'???',why_us_option_4:'???',why_us_option_5:'???',why_us_option_6:'???',why_us_image:'???',why_us_video:'???'})
+        })
+      }
     render() {
         return (
             <Fragment>
@@ -16,14 +40,14 @@ class WhyUs extends Component {
                         <Col className='WhyColumn1' lg={6} md={6} sm={6}>
                             
                             <div className='whytitlediv'>
-                                <h1 className='WhyMainTitile'>WHY 1GM ?</h1>
-                                <h5 className='WHYMainDescription'>Luxury Gym Experience Everyone Can Afford.</h5>
+                                <h1 className='WhyMainTitile'>{this.state.why_us_title}</h1>
+                                <h5 className='WHYMainDescription'>{this.state.why_us_sub_title}</h5>
                             </div>
                             <div className='whymenudiv1'>
-                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>Super Clean</h4> 
-                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>Friendly Staff</h4> 
-                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>Workout & Recover</h4> 
-                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>Motivating Atmosphere</h4> 
+                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>{this.state.why_us_option_1}</h4> 
+                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>{this.state.why_us_option_2}</h4> 
+                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>{this.state.why_us_option_3}</h4> 
+                               <h4 className='WhyMenu1'><i class="fa fa-check checkSet1" aria-hidden="true"></i>{this.state.why_us_option_4}</h4> 
                             </div>
                             <div className='buttonClass1'>
                                 <Button className='btn btn-primary JoinButton1'>START YOUR JOURNEY</Button>

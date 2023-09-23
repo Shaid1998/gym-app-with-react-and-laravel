@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\TrainingController;
 use App\Http\Controllers\Admin\SubscribeDataController;
+use App\Http\Controllers\Admin\WhyUsController;
 
 
 
@@ -16,3 +17,8 @@ Route::get('/alltraining', [TrainingController::class,'onAllSelect']);
 Route::post('/senddata', [SubscribeDataController::class,'sendclientdata']);
 Route::get('/allsubscribe', [SubscribeDataController::class,'clientdata']);
 Route::get('/traininghome', [TrainingController::class,'trainingAllData']);
+
+//WHY US Controller
+Route::get('/whyusall', [WhyUsController::class,'whyUsAllData']);
+
+

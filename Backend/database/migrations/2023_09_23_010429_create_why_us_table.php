@@ -13,16 +13,16 @@ return new class extends Migration
     {
         Schema::create('why_us', function (Blueprint $table) {
             $table->id();
-            $table->id('why_us_title')->nullable();
-            $table->id('why_us_sub_title')->nullable();
-            $table->id('why_us_option_1')->nullable();
-            $table->id('why_us_option_2')->nullable();
-            $table->id('why_us_option_3')->nullable();
-            $table->id('why_us_option_4')->nullable();
-            $table->id('why_us_option_5')->nullable();
-            $table->id('why_us_option_6')->nullable();
-            $table->id('why_us_image')->nullable();
-            $table->id('why_us_video')->nullable();
+            $table->string('why_us_title')->nullable();
+            $table->string('why_us_sub_title')->nullable();
+            $table->string('why_us_option_1')->nullable();
+            $table->string('why_us_option_2')->nullable();
+            $table->string('why_us_option_3')->nullable();
+            $table->string('why_us_option_4')->nullable();
+            $table->string('why_us_option_5')->nullable();
+            $table->string('why_us_option_6')->nullable();
+            $table->string('why_us_image')->nullable();
+            $table->string('why_us_video')->nullable();
             $table->timestamps();
         });
     }
