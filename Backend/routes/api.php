@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\AtmosphereController;
 use App\Http\Controllers\Admin\JoinController;
 use App\Http\Controllers\Admin\FooterController;
 use App\Http\Controllers\Admin\CardioController;
+use App\Http\Controllers\Admin\FacilitiesController;
 
 
 
@@ -47,5 +48,8 @@ Route::get('/joinhomeall', [JoinController::class,'JoinHomeAllData']);
 //Footer Controller
 Route::get('/footerall', [FooterController::class,'FooterAllData']);
 
-//Footer Controller
+//Cardio Controller
 Route::get('/cardioall', [CardioController::class,'CardioAllData']);
+
+//Facilities Controller
+Route::get('/facilitiesall', [FacilitiesController::class,'FacilitiesAllData']);

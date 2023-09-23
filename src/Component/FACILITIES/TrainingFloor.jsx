@@ -9,8 +9,8 @@ class TrainingFloor extends Component {
     super();
     this.state={
       Training_floor_title:'loading data.......',
-      recovery_description:'loading data.......',
-      recovery_image:'loading data.......'
+      Training_floor_description:'loading data.......',
+      Training_floor_image:'loading data.......'
     }
   }
   componentDidMount(){
@@ -35,7 +35,7 @@ class TrainingFloor extends Component {
                   <h1 className='TFTi'>{this.state.Training_floor_title}</h1>
               </div>
               <div className='TFDescription'>
-                  <p className='TFDes'>{this.state.recovery_description}</p>
+                  <p className='TFDes'>{this.state.Training_floor_description}</p>
               </div>
             </Col>
           </Row>

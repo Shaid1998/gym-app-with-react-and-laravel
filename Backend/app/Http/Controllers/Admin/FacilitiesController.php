@@ -8,5 +8,8 @@ use App\Models\Facilitie;
 
 class FacilitiesController extends Controller
 {
-    
+    public function FacilitiesAllData(){
+        $result = Facilitie::all();
+        return $result;
+    }//End Method
 }
