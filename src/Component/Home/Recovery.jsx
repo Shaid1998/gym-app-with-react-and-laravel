@@ -3,6 +3,23 @@ import { Col, Row } from 'react-bootstrap'
 import PSlider5 from '../../Assets/Image/PSlider5.jpg'
 
 class Recovery extends Component {
+    constructor(){
+        super();
+        this.state={
+            recovery_title_1:'loading data.......',
+            recovery_title_2:'loading data.......',
+            recovery_title_3:'loading data.......',
+            recovery_description:'loading data.......',
+            recovery_image:'loading data.......'
+        }
+      }
+      componentDidMount(){
+        RestClient.GetRequest(BaseUrl.AllExperienceDataShow).then(result=>{
+            this.setState({recovery_title_1:result[0]['recovery_title_1'],recovery_title_2:result[0]['recovery_title_2'],recovery_title_3:result[0]['recovery_title_3'],recovery_description:result[0]['recovery_description'],recovery_image:result[0]['recovery_image']});
+        }).catch(error=>{
+          this.setState({recovery_title_1:'???',recovery_title_2:'???',recovery_title_3:'???',recovery_description:'???',recovery_image:'???'})
+        })
+      }
   render() {
     return (
         <Fragment>

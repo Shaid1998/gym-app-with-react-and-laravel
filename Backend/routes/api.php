@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\TrainingController;
 use App\Http\Controllers\Admin\SubscribeDataController;
 use App\Http\Controllers\Admin\WhyUsController;
 use App\Http\Controllers\Admin\ExperienceController;
+use App\Http\Controllers\Admin\RecoveryController;
 
 
 
@@ -24,4 +25,7 @@ Route::get('/whyusall', [WhyUsController::class,'whyUsAllData']);
 
 //Experience Controller
 Route::get('/experienceall', [ExperienceController::class,'experienceAllData']);
+
+//Recovery Controller
+Route::get('/recoveryall', [RecoveryController::class,'recoveryAllData']);
 
