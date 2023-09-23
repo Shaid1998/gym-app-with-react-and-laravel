@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\TrainingController;
 use App\Http\Controllers\Admin\SubscribeDataController;
 use App\Http\Controllers\Admin\WhyUsController;
+use App\Http\Controllers\Admin\ExperienceController;
 
 
 
@@ -21,4 +22,6 @@ Route::get('/traininghome', [TrainingController::class,'trainingAllData']);
 //WHY US Controller
 Route::get('/whyusall', [WhyUsController::class,'whyUsAllData']);
 
+//Experience Controller
+Route::get('/experienceall', [ExperienceController::class,'experienceAllData']);
 

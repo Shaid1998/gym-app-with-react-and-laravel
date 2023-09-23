@@ -7,6 +7,7 @@ class BaseUrl{
     static SubscribeDataShow = this.BaseURL+'/allsubscribe';
     static AllTrainingShow = this.BaseURL+'/traininghome';
     static AllWHyUsDataShow = this.BaseURL+'/whyusall';
+    static AllExperienceDataShow = this.BaseURL+'/experienceall';
 }
 
 export default BaseUrl
