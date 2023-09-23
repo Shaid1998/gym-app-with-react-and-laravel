@@ -7,13 +7,19 @@ use App\Models\PersonalTrainer;
 use Illuminate\Http\Request;
 
 class SubscribeDataController extends Controller
-{
-    public function sendContact(Request $request){
+{   
+    public function clientdata(){
+        $result = PersonalTrainer::all();
+        return $result;
+    }//End Method
+
+
+    public function sendclientdata(Request $request){
         $result = PersonalTrainer::insert([
             'fname' => $request->fname,
-            '1name' => $request->lname,
+            'lname' => $request->lname,
             'email' => $request->email,
-            'phone' => $request->phone,
+            'phone' => $request->phone
         ]);
 
         if($result == true){
