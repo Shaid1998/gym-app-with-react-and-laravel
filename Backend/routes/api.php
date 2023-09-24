@@ -15,6 +15,7 @@ use App\Http\Controllers\Admin\CardioController;
 use App\Http\Controllers\Admin\FacilitiesController;
 use App\Http\Controllers\Admin\StrenngthController;
 use App\Http\Controllers\Admin\AminitiesController;
+use App\Http\Controllers\Admin\AboutController;
 
 
 
@@ -65,3 +66,6 @@ Route::get('/aminitiestopall', [AminitiesController::class,'AminitiesTopAllData'
 Route::get('/kidscluball', [AminitiesController::class,'KidsClubAllData']);
 Route::get('/lockerall', [AminitiesController::class,'LockerAllData']);
 Route::get('/tanningall', [AminitiesController::class,'TanningAllData']);
+
+//About Controller
+Route::get('/aboutall', [AboutController::class,'AboutAllData']);
