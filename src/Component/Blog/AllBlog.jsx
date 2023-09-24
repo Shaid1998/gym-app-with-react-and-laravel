@@ -58,7 +58,7 @@ class AllBlog extends Component {
                           </Col>
                           <Col className='LastMidCol3' lg={6} sm={6} md={6}>
                             <div>
-                              <h1 className='ReactionClass'>2 <RiHeart3Fill className="heart"/></h1>
+                              <h1 className='ReactionClass'>{MyList.blog_reaction} <RiHeart3Fill className="heart"/></h1>
                             </div>
                           </Col>
                         </Row>
