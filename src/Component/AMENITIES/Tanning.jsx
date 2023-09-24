@@ -1,8 +1,25 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import TVideo from '../../Assets/Video/Tanning.mp4'
+import BaseUrl from '../../BaseUrl/BaseUrl'
+import RestClient from '../../BaseUrl/RestClient'
 
 class Tanning extends Component {
+  constructor(){
+    super();
+    this.state={
+      Tanning_title:'loading data.......',
+      Tanning_Description:'loading data.......',
+      Tanning_video:'loading data.......'
+    }
+  }
+  componentDidMount(){
+    RestClient.GetRequest(BaseUrl.AllTanningDataShow).then(result=>{
+        this.setState({Tanning_title:result[0]['Tanning_title'],Tanning_Description:result[0]['Tanning_Description'],Tanning_video:result[0]['Tanning_video']});
+    }).catch(error=>{
+      this.setState({Tanning_title:'???',Tanning_Description:'???',Tanning_video:'???'})
+    })
+  }
   render() {
     return (
       <Fragment>
@@ -13,10 +30,10 @@ class Tanning extends Component {
             </Col>
             <Col className='Tco2' lg={6} md={6} sm={6}>
               <div className='TT'>
-                  <h1 className='TTi'>KBL Hybrid Tanning</h1>
+                  <h1 className='TTi'>{this.state.Tanning_title}</h1>
               </div>
               <div className='TDescription'>
-                  <p className='TDes'>KBL's Hybrid Technology has proven to be dynamically effective in performance and design. With twenty-six high performance UV tubes and twenty-six smart Sunlight tubes combined, this 52 lamp hybrid combination output boasts beautiful tanning, bio positive effects, anti-aging through collagen light, and flawless skin through the cleansing effect of the light's blue ratio.</p>
+                  <p className='TDes'>{this.state.Tanning_Description}</p>
               </div>
             </Col>
           </Row>
