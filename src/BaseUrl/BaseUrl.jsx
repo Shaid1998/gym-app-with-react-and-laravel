@@ -24,6 +24,7 @@ class BaseUrl{
     static AllTanningDataShow = this.BaseURL+'/tanningall';
     static AllAboutDataShow = this.BaseURL+'/aboutall';
     static AllBlogDataShow = this.BaseURL+'/blogall';
+    static AllCareerDataShow = this.BaseURL+'/careerall';
 }
 
 export default BaseUrl

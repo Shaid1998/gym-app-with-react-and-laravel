@@ -1,7 +1,6 @@
 import {RiHeart3Fill} from 'react-icons/ri';
 import React, { Component, Fragment } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
-import BlogImg from '../../Assets/Image/CustomerService/blog.jpg'
 import { Badge } from 'flowbite-react'
 import { HiCheck } from 'react-icons/hi'
 import BaseUrl from '../../BaseUrl/BaseUrl';
