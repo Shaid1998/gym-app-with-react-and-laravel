@@ -53,6 +53,7 @@ Route::get('/joinhomeall', [JoinController::class,'JoinHomeAllData']);
 //Footer Controller
 Route::get('/footerall', [FooterController::class,'FooterAllData']);
 Route::get('/careerall', [FooterController::class,'CareerAllData']);
+Route::get('/corwellall', [FooterController::class,'CorporateWellnessAllData']);
 
 //Cardio Controller
 Route::get('/cardioall', [CardioController::class,'CardioAllData']);

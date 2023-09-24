@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Footer;
 use App\Models\Career;
+use App\Models\CorporateWellness;
 
 class FooterController extends Controller
 {
@@ -16,6 +17,11 @@ class FooterController extends Controller
 
     public function CareerAllData(){
         $result = Career::all();
+        return $result;
+    }//End Method
+
+    public function CorporateWellnessAllData(){
+        $result = CorporateWellness::all();
         return $result;
     }//End Method
 }
