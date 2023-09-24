@@ -8,7 +8,7 @@ class About extends Component {
         <Fragment>
             <Row className='About'>
                 <Col lg={12} md={12} sm={12}>
-                    <Row className='TopRow'>
+                    <Row className='TopRow12'>
                         <div>
                             <h1 className='WelcomT'>Welcome to the 1GYM Experience</h1>
                         </div>
