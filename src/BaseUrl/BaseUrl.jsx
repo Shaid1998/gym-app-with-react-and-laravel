@@ -21,6 +21,7 @@ class BaseUrl{
     static AllAminitiesTopDataShow = this.BaseURL+'/aminitiestopall';
     static AllKidsClubDataShow = this.BaseURL+'/kidscluball';
     static AllLockerDataShow = this.BaseURL+'/lockerall';
+    static AllTanningDataShow = this.BaseURL+'/tanningall';
 }
 
 export default BaseUrl

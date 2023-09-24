@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\AmenitiesTop;
 use App\Models\KidsClub;
 use App\Models\Locker;
+use App\Models\Tanning;
 
 class AminitiesController extends Controller
 {
@@ -22,6 +23,11 @@ class AminitiesController extends Controller
 
     public function LockerAllData(){
         $result = Locker::all();
+        return $result;
+    }//End Method
+
+    public function TanningAllData(){
+        $result = Tanning::all();
         return $result;
     }//End Method
 }
