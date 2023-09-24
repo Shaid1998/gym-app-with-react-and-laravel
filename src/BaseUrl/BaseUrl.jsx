@@ -23,6 +23,7 @@ class BaseUrl{
     static AllLockerDataShow = this.BaseURL+'/lockerall';
     static AllTanningDataShow = this.BaseURL+'/tanningall';
     static AllAboutDataShow = this.BaseURL+'/aboutall';
+    static AllBlogDataShow = this.BaseURL+'/blogall';
 }
 
 export default BaseUrl

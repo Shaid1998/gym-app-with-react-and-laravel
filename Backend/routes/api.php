@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\FacilitiesController;
 use App\Http\Controllers\Admin\StrenngthController;
 use App\Http\Controllers\Admin\AminitiesController;
 use App\Http\Controllers\Admin\AboutController;
+use App\Http\Controllers\Admin\BlogController;
 
 
 
@@ -69,3 +70,6 @@ Route::get('/tanningall', [AminitiesController::class,'TanningAllData']);
 
 //About Controller
 Route::get('/aboutall', [AboutController::class,'AboutAllData']);
+
+//Blog Controller
+Route::get('/blogall', [BlogController::class,'BlogAllData']);
