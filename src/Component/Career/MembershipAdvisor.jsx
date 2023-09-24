@@ -1,8 +1,25 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import AdvisorImg from '../../Assets/Image/Careers/Advisor.jpg'
+import BaseUrl from '../../BaseUrl/BaseUrl'
+import RestClient from '../../BaseUrl/RestClient'
 
 class MembershipAdvisor extends Component {
+  constructor(){
+    super();
+    this.state={
+      career_job_title_5:'loading data.......',
+      career_job_description_5:'loading data.......',
+      career_job_image_5:'loading data.......'
+    }
+  }
+  componentDidMount(){
+    RestClient.GetRequest(BaseUrl.AllCareerDataShow).then(result=>{
+        this.setState({career_job_title_5:result[0]['career_job_title_5'],career_job_description_5:result[0]['career_job_description_5'],career_job_image_5:result[0]['career_job_image_5']});
+    }).catch(error=>{
+      this.setState({career_job_title_5:'???',career_job_description_5:'???',career_job_image_5:'???'})
+    })
+  }
   render() {
     return (
       <Fragment>
@@ -15,10 +32,10 @@ class MembershipAdvisor extends Component {
             </Col>
             <Col className='AdvisorCarCol2' lg={6} md={6} sm={6}>
               <div className='AdvisorCarT'>
-                <h1 className='AdvisorCarTitile'>MEMBERSHIP ADVISOR</h1>
+                <h1 className='AdvisorCarTitile'>{this.state.career_job_title_5}</h1>
               </div>
               <div className='AdvisorCarDescription'>
-                <p className='AdvisorCarDes'>If you like the idea of controlling your own paycheck, then this is for you.  Our Advisors work tirelessly to get all our sales leads to come experience the gym.  They provide the highest level of service and help our guest make a decision to become a member of our gym.</p>
+                <p className='AdvisorCarDes'>{this.state.career_job_description_5}</p>
               </div>
             </Col>
           </Row>
