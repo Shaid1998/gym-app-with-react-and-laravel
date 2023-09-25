@@ -97,9 +97,9 @@
 						<tr>
 							<th>Sl</th>
 							<th>Date</th>
-							<th>Invoice</th>
-							<th>Amount</th>
-							<th>Payment</th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Phone</th>
 							<th>Status</th> 
 						</tr>
 					</thead>
