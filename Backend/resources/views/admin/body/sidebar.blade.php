@@ -31,6 +31,13 @@
 						<div class="menu-title">Response</div>
 					</a>
 				</li>
+				<li>
+					<a href=" {{ route('income.expence.data') }} ">
+						<div class="parent-icon"><i class="fas fa-dollar-sign"></i>
+						</div>
+						<div class="menu-title">Earning</div>
+					</a>
+				</li>
 			</ul>
 			<!--end navigation-->
 		</div>

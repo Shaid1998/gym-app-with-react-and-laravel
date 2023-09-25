@@ -20,6 +20,11 @@ class AdminController extends Controller
 
     } // End Mehtod 
 
+    public function AdminIncomeExpence(){
+
+        return view('admin.IncomeExpence');
+
+    } // End Mehtod 
 
     public function AdminLogin(){
         return view('admin.admin_login');
@@ -126,8 +131,6 @@ public function AdminDestroy(Request $request){
 
     }// End Mehtod 
     public function AdminUserUpdate(Request $request,$id){
-
-
         $user = User::findOrFail($id);
         $user->username = $request->username;
         $user->name = $request->name;
