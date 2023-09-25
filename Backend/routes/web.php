@@ -20,7 +20,8 @@ Route::get('/admin/profile', [AdminController::class, 'AdminProfile'])->name('ad
 Route::post('/admin/profile/store', [AdminController::class, 'AdminProfileStore'])->name('admin.profile.store');
 Route::get('/admin/change/password', [AdminController::class, 'AdminChangePassword'])->name('admin.change.password');
 Route::post('/admin/update/password', [AdminController::class, 'AdminUpdatePassword'])->name('update.password');
-Route::post('/subscriber/data', [SubscribeDataController::class, 'SubscriberData']);
+Route::get('/subscriber/data', [SubscribeDataController::class, 'SubscriberData'])->name('subscriber.data');
+Route::get('/trainer/data', [SubscribeDataController::class, 'Trainertdata'])->name('trainer.data');
 
 
 Route::get('/dashboard', function () {

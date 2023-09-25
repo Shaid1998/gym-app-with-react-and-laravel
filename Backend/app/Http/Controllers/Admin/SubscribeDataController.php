@@ -9,14 +9,14 @@ use Illuminate\Http\Request;
 
 class SubscribeDataController extends Controller
 {   
-    public function clientdata(){
-        $result = PersonalTrainer::all();
-        return $result;
+    public function Trainertdata(){
+        $data = PersonalTrainer::all();
+        return view('admin.index', compact('data'));
     }//End Method
 
     public function SubscriberData(){
-        $result = Subscriber::all();
-        return $result;
+        $data = Subscriber::all();
+        return view('admin.subscriber_index', compact('data'));
     }//End Method
 
 

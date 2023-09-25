@@ -25,10 +25,10 @@
 					</a>
 				</li>
 				<li>
-					<a href=" " target="_blank">
+					<a href=" {{ route('subscriber.data') }} ">
 						<div class="parent-icon"><i class="fa fa-block fa-check"></i>
 						</div>
-						<div class="menu-title">Responce</div>
+						<div class="menu-title">Response</div>
 					</a>
 				</li>
 			</ul>
