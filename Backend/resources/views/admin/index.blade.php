@@ -85,7 +85,7 @@
 		<div class="card-body">
 			<div class="d-flex align-items-center">
 				<div>
-					<h5 class="mb-0">Orders Summary</h5>
+					<h5 class="mb-0">Subscriber Request's Data</h5>
 				</div>
 				<div class="font-22 ms-auto"><i class="bx bx-dots-horizontal-rounded"></i>
 				</div>
