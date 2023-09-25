@@ -6,14 +6,29 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission; 
 
-use App\Notifications\VendorApproveNotification;
-use Illuminate\Support\Facades\Notification;
+use App\Models\IncomeExpence;
+use App\Models\MonthlyIncome;
+use App\Models\MonthlyExpence;
+
          
 class AdminController extends Controller
-{
+{   
+    public function ThisMonthIncome(){
+        $data2 = MonthlyIncome::all();
+        return view('admin.IncomeExpence', compact('$data2'));
+    }//End Method
+
+    public function ThisYearAccount(){
+        $data3 = IncomeExpence::all();
+        return view('admin.IncomeExpence', compact('$data3'));
+    }//End Method
+
+    public function ThisMonthExpence(){
+        $data = MonthlyExpence::all();
+        return view('admin.IncomeExpence', compact('$data'));
+    }//End Method
+
     public function AdminDashboard(){
 
         return view('admin.index');
