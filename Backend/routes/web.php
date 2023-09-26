@@ -28,13 +28,6 @@ Route::get('/subscriber/data', [SubscribeDataController::class, 'SubscriberData'
 Route::get('/trainer/data', [SubscribeDataController::class, 'Trainertdata'])->name('trainer.data');
 
 
-Route::controller(AdminController::class)->group(function(){
-    Route::get('/all/admin' , 'AllAdmin')->name('all.admin');
-    Route::get('/add/admin' , 'AddAdmin')->name('add.admin');
-    Route::post('/admin/user/store' , 'AdminUserStore')->name('admin.user.store');
-    Route::post('/admin/user/update/{id}' , 'AdminUserUpdate')->name('admin.user.update');
-   
-   });
 
 
 Route::get('/dashboard', function () {

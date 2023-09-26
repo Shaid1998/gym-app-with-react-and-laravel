@@ -102,7 +102,7 @@
 							<th>Action</th>
 						</tr>
 					</thead>
-					{{-- @foreach ($data as $data)
+					@foreach ($data as $data)
 						<tbody>
 							<tr>
 								<td>{{$data->id}}</td>
@@ -115,7 +115,7 @@
 								</td>
 							</tr>
 						</tbody>
-					@endforeach --}}
+					@endforeach
 				</table>
 			</div>
 		</div>

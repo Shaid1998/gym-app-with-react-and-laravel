@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\PersonalTrainer;
 use App\Models\Subscriber;
-
 use Illuminate\Http\Request;
 
 class SubscribeDataController extends Controller
@@ -21,17 +20,32 @@ class SubscribeDataController extends Controller
 
 
     public function sendclientdata(Request $request){
-        $result = PersonalTrainer::insert([
+        $validator = Validator::make($request->all(),
+            [
+            'fname'=> 'required|max:191',
+            'lname'=> 'required|max:191',
+            'email'=> 'required|email|max:191',
+            'phone'=> 'required|numeric|max:10|min:10',
+            ]
+        );
+
+        if($validator->fails()){
+            return response()->json([
+                'validate_err' => $validator->messages()
+            ]);
+        }else{
+           $result = PersonalTrainer::insert([
             'fname' => $request->fname,
             'lname' => $request->lname,
             'email' => $request->email,
             'phone' => $request->phone
-        ]);
+            ]);
 
-        if($result == true){
-            return 1;
-        }else{
-            return 0;
+            return response()->json([
+                'status'=> 200,
+                'message' => "Send Successfully"
+            ]);
         }
+        
     }
 }

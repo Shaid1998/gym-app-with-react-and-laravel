@@ -12,32 +12,25 @@ class PersonalTraining extends Component {
             fname : '',
             lname : '',
             email : '',
-            phone : ''
+            phone : '',
+            err_list :[]
         }
     }
-    fname(event){
-        this.setState({fname : event.target.value})
-    }
-    lname(event){
-        this.setState({lname : event.target.value})
-    }
-    phone(event){
-        this.setState({phone : event.target.value})
-    }
-    email(event){
-        this.setState({email : event.target.value})
-    }
+    
     sendContact(){
+
         let fname = document.getElementById("fname").value;
         let lname = document.getElementById("lname").value;
         let email = document.getElementById("email").value;
         let phone = document.getElementById("phone").value;
 
         let jsonObject = {fname:fname,lname:lname, email:email,phone:phone}
-          RestClient.PostRequest(AppUrl.SubscribeData,JSON.stringify(jsonObject)).then(result=>{
+          const res = RestClient.PostRequest(AppUrl.SubscribeData,JSON.stringify(jsonObject)).then(result=>{
                alert(result);
           }).catch(error=>{
-               alert("Error");
+               this.setState({
+                error_list: res.data.validate_err,
+               })
           })
    }
 
@@ -59,21 +52,25 @@ class PersonalTraining extends Component {
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>First Name<a className='ImportantSign'>*</a></h2>
                             <input name='fname' type="text" id='fname' placeholder='First Name' className='form-controlt' />
+                            <span className='text-danger'>{this.state.err_list.fname}</span>
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Last Name</h2>
                             <input name='lname' type="text" id='lname' placeholder='Last Name' className='form-controlt' />
+                            <span className='text-danger'>{this.state.err_list.lname}</span>
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Email Address<a className='ImportantSign'>*</a></h2>
                             <input name='email' id='email' type="email" placeholder='Email Address' className='form-controlt' />
+                            <span className='text-danger'>{this.state.err_list.email}</span>
                         </div>
                         <div className='form-group'>
                             <h2 className='FormValuTitile'>Call NUmber<a className='ImportantSign'>*</a></h2>
                             <input type="phone" placeholder='Call Number' className='form-controlt' />
+                            <span className='text-danger'>{this.state.err_list.phone}</span>
                         </div>
                         <div className='btncl'>
-                        <Button type='submit' onClick={this.sendContact} href='/personaltraining' variant="success" className='TrBtnT' size="huge">Subscribe</Button>
+                        <Button type='submit' onClick={this.sendContact} variant="success" className='TrBtnT' size="huge">Subscribe</Button>
                         </div>
                     </Form>
                 </Col>
